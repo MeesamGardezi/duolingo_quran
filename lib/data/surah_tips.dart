@@ -1,0 +1,35 @@
+class SurahTips {
+  static const Map<int, String> _tips = {
+    1: 'Al-Fatiha is recited in every unit of prayer (raka\'ah). A Muslim recites it at least 17 times daily.',
+    86: 'At-Tariq (The Morning Star) draws attention to the piercing brightness of a star to illustrate how every soul has a guardian angel.',
+    87: 'Al-A\'la was one of the first surahs revealed. The Prophet (ﷺ) often recited it in Friday prayers.',
+    88: 'Al-Ghashiyah (The Overwhelming) describes the Day of Judgment — some faces humbled, others radiant with joy.',
+    89: 'Al-Fajr opens with an oath by the dawn — a time of spiritual renewal and the start of a new day.',
+    90: 'Al-Balad (The City) refers to Makkah, a city sacred since the time of Prophet Ibrahim (AS).',
+    91: 'Ash-Shams lists eleven oaths before delivering its message: purifying the soul leads to success.',
+    92: 'Al-Layl contrasts two types of people — the generous believer and the miserly disbeliever.',
+    93: 'Ad-Duha was revealed to comfort the Prophet (ﷺ) during a period of silence in revelation. It reminds him of Allah\'s care.',
+    94: 'Ash-Sharh (The Opening of the Heart) was revealed to uplift the Prophet (ﷺ). "With every hardship comes ease" appears twice for emphasis.',
+    96: 'Al-Alaq contains the very first Quranic revelation: "Recite in the name of your Lord who created."',
+    97: 'Laylatul Qadr (the Night of Power) mentioned in Al-Qadr is better than a thousand months — roughly 83 years of worship.',
+    98: 'Al-Bayyinah explains why those given scripture before Islam were unable to leave error — until clear proof came.',
+    99: 'Az-Zalzalah teaches that no deed, even an atom\'s weight, is too small to be recorded and shown on Judgment Day.',
+    100: 'Al-Adiyat takes an oath by war horses charging at dawn — to remind humans of ingratitude despite countless blessings.',
+    101: 'Al-Qari\'ah describes the Day of Judgment when mountains will be like carded wool and deeds will be weighed on a scale.',
+    102: 'At-Takathur warns against competing over worldly accumulation — a race that continues until we reach our graves.',
+    103: 'Al-Asr is so comprehensive that Imam Al-Shafi\'i said: if people reflected only on this surah, it would suffice them.',
+    104: 'Al-Humazah describes a type of person who hoards wealth and mocks others — the fire will rise to their hearts.',
+    105: 'Al-Fil refers to Abraha\'s army with elephants that tried to destroy the Ka\'bah in 570 CE — the year of the Prophet\'s birth.',
+    106: 'Quraysh reminds the Quraysh tribe that their trading security came from Allah — so they should worship only Him.',
+    107: 'Al-Ma\'un warns that prayer and charity without sincerity or care for the poor are hollow acts.',
+    108: 'Al-Kawthar (The Abundance) was revealed in response to those who called the Prophet (ﷺ) "cut off" because his sons died.',
+    109: 'Al-Kafirun establishes a clear boundary: "To you your religion, and to me mine." It is called "The Surah of Disavowal."',
+    110: 'An-Nasr was the last complete surah revealed. After it, the Prophet (ﷺ) began intensifying his remembrance of Allah.',
+    111: 'Al-Masad names a specific person — Abu Lahab — making it the only surah to condemn an individual by name.',
+    112: 'Al-Ikhlas equals one-third of the Quran in reward because it describes Allah\'s nature completely and purely.',
+    113: 'Al-Falaq and An-Nas together are called Al-Mu\'awwidhatayn — "the two protectors." The Prophet recited them to seek refuge.',
+    114: 'An-Nas, the final surah, seeks refuge from the whispering of Shaytan who withdraws when Allah is remembered.',
+  };
+
+  static String? getTip(int surahNumber) => _tips[surahNumber];
+}

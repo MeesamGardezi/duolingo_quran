@@ -5,6 +5,7 @@ import '../../providers/app_provider.dart';
 import '../../data/quran_repository.dart';
 import '../../theme/app_theme.dart';
 import '../../widgets/progress_bar.dart';
+import '../../data/surah_tips.dart';
 import '../exercises/exercise_base.dart';
 import '../exercises/translation_match.dart';
 import '../exercises/multiple_choice.dart';
@@ -285,12 +286,51 @@ class _IntroExercise extends StatelessWidget {
             ],
           ),
         ),
-        const SizedBox(height: 32),
+        const SizedBox(height: 20),
+        _SurahTipCard(surahNumber: exercise.surahNumber),
+        const SizedBox(height: 20),
         ElevatedButton(
           onPressed: onContinue,
           child: const Text('GOT IT'),
         ),
       ],
+    );
+  }
+}
+
+class _SurahTipCard extends StatelessWidget {
+  final int surahNumber;
+  const _SurahTipCard({required this.surahNumber});
+
+  @override
+  Widget build(BuildContext context) {
+    final tip = SurahTips.getTip(surahNumber);
+    if (tip == null) return const SizedBox.shrink();
+
+    return Container(
+      padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: const Color(0xFFFFF8E1),
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: const Color(0xFFFFE082), width: 1.5),
+      ),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text('💡', style: TextStyle(fontSize: 18)),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Text(
+              tip,
+              style: const TextStyle(
+                fontSize: 13,
+                color: Color(0xFF795548),
+                height: 1.5,
+              ),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
