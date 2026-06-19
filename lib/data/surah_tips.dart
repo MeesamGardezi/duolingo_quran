@@ -8,6 +8,7 @@ class SurahTips {
     87: 'Al-A\'la was one of the first surahs revealed. The Prophet (ﷺ) often recited it in Friday prayers.',
     88: 'Al-Ghashiyah (The Overwhelming) describes the Day of Judgment — some faces humbled, others radiant with joy.',
     89: 'Al-Fajr opens with an oath by the dawn — a time of spiritual renewal and the start of a new day.',
+    83: 'Al-Mutaffifin warns against giving less than due in business — a principle that extends to all acts of fairness and honesty.',
     84: 'Al-Inshiqaq tells us that every person is journeying toward their Lord — and will meet Him.',
     90: 'Al-Balad (The City) refers to Makkah, a city sacred since the time of Prophet Ibrahim (AS).',
     95: 'At-Tin opens with oaths by the fig, olive, Mount Sinai, and Makkah — all places of great prophets.',

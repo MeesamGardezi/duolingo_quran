@@ -5,6 +5,7 @@ import '../../theme/app_theme.dart';
 import '../../models/achievement.dart';
 import '../settings/settings_screen.dart';
 import 'achievements_screen.dart';
+import 'leaderboard_screen.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -111,6 +112,16 @@ class ProfileScreen extends StatelessWidget {
           // Weekly streak calendar
           _WeeklyStreakCalendar(lastStudyDate: p.lastStudyDate, streak: p.streak),
           const SizedBox(height: 20),
+
+          // Leaderboard button
+          _LeaderboardButton(
+            level: p.level,
+            onTap: () => Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => const LeaderboardScreen()),
+            ),
+          ),
+          const SizedBox(height: 16),
 
           // Achievements section
           _AchievementsPreview(
@@ -295,6 +306,84 @@ class _StatTile extends StatelessWidget {
                   color: AppColors.textSecondary,
                   fontWeight: FontWeight.w600)),
         ],
+      ),
+    );
+  }
+}
+
+class _LeaderboardButton extends StatelessWidget {
+  final int level;
+  final VoidCallback onTap;
+
+  const _LeaderboardButton({required this.level, required this.onTap});
+
+  @override
+  Widget build(BuildContext context) {
+    // Mirror league tiers from leaderboard_screen.dart
+    final tiers = [
+      ('Bronze', const Color(0xFFCD7F32)),
+      ('Silver', const Color(0xFF9E9E9E)),
+      ('Gold', const Color(0xFFFFD700)),
+      ('Sapphire', const Color(0xFF1E88E5)),
+      ('Ruby', const Color(0xFFE53935)),
+      ('Emerald', const Color(0xFF43A047)),
+      ('Amethyst', const Color(0xFF8E24AA)),
+      ('Pearl', const Color(0xFF26C6DA)),
+      ('Obsidian', const Color(0xFF37474F)),
+      ('Diamond', const Color(0xFF29B6F6)),
+    ];
+    final idx = ((level - 1) ~/ 2).clamp(0, tiers.length - 1);
+    final tierName = tiers[idx].$1;
+    final tierColor = tiers[idx].$2;
+
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: tierColor.withOpacity(0.08),
+          borderRadius: BorderRadius.circular(16),
+          border: Border.all(color: tierColor.withOpacity(0.4), width: 2),
+        ),
+        child: Row(
+          children: [
+            Container(
+              width: 48,
+              height: 48,
+              decoration: BoxDecoration(
+                color: tierColor.withOpacity(0.15),
+                shape: BoxShape.circle,
+              ),
+              child: const Center(
+                child: Text('🏆', style: TextStyle(fontSize: 24)),
+              ),
+            ),
+            const SizedBox(width: 14),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    '$tierName League',
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w900,
+                      color: tierColor,
+                    ),
+                  ),
+                  const Text(
+                    'See your weekly ranking',
+                    style: TextStyle(
+                      fontSize: 12,
+                      color: AppColors.textSecondary,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Icon(Icons.chevron_right, color: tierColor),
+          ],
+        ),
       ),
     );
   }
