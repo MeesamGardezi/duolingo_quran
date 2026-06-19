@@ -1,0 +1,615 @@
+{
+  "surahs": [
+    {
+      "number": 1,
+      "name": "Al-Fatiha",
+      "arabicName": "الفاتحة",
+      "meaning": "The Opening",
+      "totalVerses": 7,
+      "revelationType": "Meccan",
+      "verses": [
+        {
+          "number": 1,
+          "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+          "translation": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+          "transliteration": "Bismillahir rahmanir raheem",
+          "words": [
+            {"arabic": "بِسْمِ", "transliteration": "bismi", "meaning": "In the name"},
+            {"arabic": "اللَّهِ", "transliteration": "allahi", "meaning": "of Allah"},
+            {"arabic": "الرَّحْمَٰنِ", "transliteration": "ar-rahmani", "meaning": "the Entirely Merciful"},
+            {"arabic": "الرَّحِيمِ", "transliteration": "ar-raheemi", "meaning": "the Especially Merciful"}
+          ]
+        },
+        {
+          "number": 2,
+          "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+          "translation": "All praise is due to Allah, Lord of the worlds.",
+          "transliteration": "Alhamdu lillahi rabbil 'aalameen",
+          "words": [
+            {"arabic": "الْحَمْدُ", "transliteration": "al-hamdu", "meaning": "All praise"},
+            {"arabic": "لِلَّهِ", "transliteration": "lillahi", "meaning": "is for Allah"},
+            {"arabic": "رَبِّ", "transliteration": "rabbi", "meaning": "Lord"},
+            {"arabic": "الْعَالَمِينَ", "transliteration": "al-'aalameen", "meaning": "of the worlds"}
+          ]
+        },
+        {
+          "number": 3,
+          "arabic": "الرَّحْمَٰنِ الرَّحِيمِ",
+          "translation": "The Entirely Merciful, the Especially Merciful,",
+          "transliteration": "Ar-rahmanir raheem",
+          "words": [
+            {"arabic": "الرَّحْمَٰنِ", "transliteration": "ar-rahmani", "meaning": "The Entirely Merciful"},
+            {"arabic": "الرَّحِيمِ", "transliteration": "ar-raheemi", "meaning": "the Especially Merciful"}
+          ]
+        },
+        {
+          "number": 4,
+          "arabic": "مَالِكِ يَوْمِ الدِّينِ",
+          "translation": "Sovereign of the Day of Recompense.",
+          "transliteration": "Maliki yawmid deen",
+          "words": [
+            {"arabic": "مَالِكِ", "transliteration": "maliki", "meaning": "Sovereign / Master"},
+            {"arabic": "يَوْمِ", "transliteration": "yawmi", "meaning": "of the Day"},
+            {"arabic": "الدِّينِ", "transliteration": "ad-deeni", "meaning": "of Recompense / Judgment"}
+          ]
+        },
+        {
+          "number": 5,
+          "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "translation": "It is You we worship and You we ask for help.",
+          "transliteration": "Iyyaka na'budu wa iyyaka nasta'een",
+          "words": [
+            {"arabic": "إِيَّاكَ", "transliteration": "iyyaka", "meaning": "You alone"},
+            {"arabic": "نَعْبُدُ", "transliteration": "na'budu", "meaning": "we worship"},
+            {"arabic": "وَإِيَّاكَ", "transliteration": "wa iyyaka", "meaning": "and You alone"},
+            {"arabic": "نَسْتَعِينُ", "transliteration": "nasta'een", "meaning": "we ask for help"}
+          ]
+        },
+        {
+          "number": 6,
+          "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+          "translation": "Guide us to the straight path -",
+          "transliteration": "Ihdinas siratal mustaqeem",
+          "words": [
+            {"arabic": "اهْدِنَا", "transliteration": "ihdina", "meaning": "Guide us"},
+            {"arabic": "الصِّرَاطَ", "transliteration": "as-sirata", "meaning": "to the path"},
+            {"arabic": "الْمُسْتَقِيمَ", "transliteration": "al-mustaqeem", "meaning": "the straight / right"}
+          ]
+        },
+        {
+          "number": 7,
+          "arabic": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+          "translation": "The path of those upon whom You have bestowed favor, not of those who have evoked Your anger or of those who are astray.",
+          "transliteration": "Siratal lazeena an'amta 'alayhim ghayril maghdubi 'alayhim wa lad daaleen",
+          "words": [
+            {"arabic": "صِرَاطَ", "transliteration": "sirata", "meaning": "The path"},
+            {"arabic": "الَّذِينَ", "transliteration": "allazeena", "meaning": "of those"},
+            {"arabic": "أَنْعَمْتَ", "transliteration": "an'amta", "meaning": "You have bestowed favor"},
+            {"arabic": "عَلَيْهِمْ", "transliteration": "'alayhim", "meaning": "upon them"},
+            {"arabic": "غَيْرِ", "transliteration": "ghayri", "meaning": "not"},
+            {"arabic": "الْمَغْضُوبِ", "transliteration": "al-maghdubi", "meaning": "those who evoked anger"},
+            {"arabic": "وَلَا", "transliteration": "wa la", "meaning": "and not"},
+            {"arabic": "الضَّالِّينَ", "transliteration": "ad-daalleen", "meaning": "those who are astray"}
+          ]
+        }
+      ]
+    },
+    {
+      "number": 112,
+      "name": "Al-Ikhlas",
+      "arabicName": "الإخلاص",
+      "meaning": "The Sincerity",
+      "totalVerses": 4,
+      "revelationType": "Meccan",
+      "verses": [
+        {
+          "number": 1,
+          "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+          "translation": "Say, He is Allah, [who is] One,",
+          "transliteration": "Qul huwal laahu ahad",
+          "words": [
+            {"arabic": "قُلْ", "transliteration": "qul", "meaning": "Say"},
+            {"arabic": "هُوَ", "transliteration": "huwa", "meaning": "He is"},
+            {"arabic": "اللَّهُ", "transliteration": "allahu", "meaning": "Allah"},
+            {"arabic": "أَحَدٌ", "transliteration": "ahad", "meaning": "One"}
+          ]
+        },
+        {
+          "number": 2,
+          "arabic": "اللَّهُ الصَّمَدُ",
+          "translation": "Allah, the Eternal Refuge.",
+          "transliteration": "Allahus samad",
+          "words": [
+            {"arabic": "اللَّهُ", "transliteration": "allahu", "meaning": "Allah"},
+            {"arabic": "الصَّمَدُ", "transliteration": "as-samad", "meaning": "the Eternal / the Self-Sufficient"}
+          ]
+        },
+        {
+          "number": 3,
+          "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+          "translation": "He neither begets nor is born,",
+          "transliteration": "Lam yalid wa lam yoolad",
+          "words": [
+            {"arabic": "لَمْ", "transliteration": "lam", "meaning": "He did not / never"},
+            {"arabic": "يَلِدْ", "transliteration": "yalid", "meaning": "beget"},
+            {"arabic": "وَلَمْ", "transliteration": "wa lam", "meaning": "and never"},
+            {"arabic": "يُولَدْ", "transliteration": "yoolad", "meaning": "was born"}
+          ]
+        },
+        {
+          "number": 4,
+          "arabic": "وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+          "translation": "Nor is there to Him any equivalent.",
+          "transliteration": "Wa lam yakul lahoo kufuwan ahad",
+          "words": [
+            {"arabic": "وَلَمْ", "transliteration": "wa lam", "meaning": "and there is not"},
+            {"arabic": "يَكُن", "transliteration": "yakun", "meaning": "equal"},
+            {"arabic": "لَّهُ", "transliteration": "lahu", "meaning": "to Him"},
+            {"arabic": "كُفُوًا", "transliteration": "kufuwan", "meaning": "any equivalent"},
+            {"arabic": "أَحَدٌ", "transliteration": "ahad", "meaning": "anyone"}
+          ]
+        }
+      ]
+    },
+    {
+      "number": 113,
+      "name": "Al-Falaq",
+      "arabicName": "الفلق",
+      "meaning": "The Daybreak",
+      "totalVerses": 5,
+      "revelationType": "Meccan",
+      "verses": [
+        {
+          "number": 1,
+          "arabic": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
+          "translation": "Say, I seek refuge in the Lord of daybreak",
+          "transliteration": "Qul a'oozu bi rabbil falaq",
+          "words": [
+            {"arabic": "قُلْ", "transliteration": "qul", "meaning": "Say"},
+            {"arabic": "أَعُوذُ", "transliteration": "a'oozu", "meaning": "I seek refuge"},
+            {"arabic": "بِرَبِّ", "transliteration": "bi rabbi", "meaning": "in the Lord"},
+            {"arabic": "الْفَلَقِ", "transliteration": "al-falaq", "meaning": "of the daybreak"}
+          ]
+        },
+        {
+          "number": 2,
+          "arabic": "مِن شَرِّ مَا خَلَقَ",
+          "translation": "From the evil of that which He created",
+          "transliteration": "Min sharri ma khalaq",
+          "words": [
+            {"arabic": "مِن", "transliteration": "min", "meaning": "from"},
+            {"arabic": "شَرِّ", "transliteration": "sharri", "meaning": "the evil"},
+            {"arabic": "مَا", "transliteration": "ma", "meaning": "of what"},
+            {"arabic": "خَلَقَ", "transliteration": "khalaq", "meaning": "He created"}
+          ]
+        },
+        {
+          "number": 3,
+          "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+          "translation": "And from the evil of darkness when it settles",
+          "transliteration": "Wa min sharri ghaasiqin iza waqab",
+          "words": [
+            {"arabic": "وَمِن", "transliteration": "wa min", "meaning": "and from"},
+            {"arabic": "شَرِّ", "transliteration": "sharri", "meaning": "the evil"},
+            {"arabic": "غَاسِقٍ", "transliteration": "ghaasiq", "meaning": "of darkness"},
+            {"arabic": "إِذَا", "transliteration": "iza", "meaning": "when"},
+            {"arabic": "وَقَبَ", "transliteration": "waqab", "meaning": "it settles / overcomes"}
+          ]
+        },
+        {
+          "number": 4,
+          "arabic": "وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ",
+          "translation": "And from the evil of the blowers in knots",
+          "transliteration": "Wa min sharrin naffaasaati fil 'uqad",
+          "words": [
+            {"arabic": "وَمِن", "transliteration": "wa min", "meaning": "and from"},
+            {"arabic": "شَرِّ", "transliteration": "sharri", "meaning": "the evil"},
+            {"arabic": "النَّفَّاثَاتِ", "transliteration": "an-naffaasaat", "meaning": "of those who blow"},
+            {"arabic": "فِي", "transliteration": "fi", "meaning": "in"},
+            {"arabic": "الْعُقَدِ", "transliteration": "al-'uqad", "meaning": "the knots"}
+          ]
+        },
+        {
+          "number": 5,
+          "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+          "translation": "And from the evil of an envier when he envies.",
+          "transliteration": "Wa min sharri haasidin iza hasad",
+          "words": [
+            {"arabic": "وَمِن", "transliteration": "wa min", "meaning": "and from"},
+            {"arabic": "شَرِّ", "transliteration": "sharri", "meaning": "the evil"},
+            {"arabic": "حَاسِدٍ", "transliteration": "haasid", "meaning": "of an envier"},
+            {"arabic": "إِذَا", "transliteration": "iza", "meaning": "when"},
+            {"arabic": "حَسَدَ", "transliteration": "hasad", "meaning": "he envies"}
+          ]
+        }
+      ]
+    },
+    {
+      "number": 114,
+      "name": "An-Nas",
+      "arabicName": "الناس",
+      "meaning": "Mankind",
+      "totalVerses": 6,
+      "revelationType": "Meccan",
+      "verses": [
+        {
+          "number": 1,
+          "arabic": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
+          "translation": "Say, I seek refuge in the Lord of mankind,",
+          "transliteration": "Qul a'oozu bi rabbin naas",
+          "words": [
+            {"arabic": "قُلْ", "transliteration": "qul", "meaning": "Say"},
+            {"arabic": "أَعُوذُ", "transliteration": "a'oozu", "meaning": "I seek refuge"},
+            {"arabic": "بِرَبِّ", "transliteration": "bi rabbi", "meaning": "in the Lord"},
+            {"arabic": "النَّاسِ", "transliteration": "an-naas", "meaning": "of mankind"}
+          ]
+        },
+        {
+          "number": 2,
+          "arabic": "مَلِكِ النَّاسِ",
+          "translation": "The Sovereign of mankind.",
+          "transliteration": "Malikin naas",
+          "words": [
+            {"arabic": "مَلِكِ", "transliteration": "maliki", "meaning": "The Sovereign / King"},
+            {"arabic": "النَّاسِ", "transliteration": "an-naas", "meaning": "of mankind"}
+          ]
+        },
+        {
+          "number": 3,
+          "arabic": "إِلَٰهِ النَّاسِ",
+          "translation": "The God of mankind,",
+          "transliteration": "Ilaahin naas",
+          "words": [
+            {"arabic": "إِلَٰهِ", "transliteration": "ilaahi", "meaning": "The God / Deity"},
+            {"arabic": "النَّاسِ", "transliteration": "an-naas", "meaning": "of mankind"}
+          ]
+        },
+        {
+          "number": 4,
+          "arabic": "مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ",
+          "translation": "From the evil of the retreating whisperer",
+          "transliteration": "Min sharril waswaasil khannaas",
+          "words": [
+            {"arabic": "مِن", "transliteration": "min", "meaning": "from"},
+            {"arabic": "شَرِّ", "transliteration": "sharri", "meaning": "the evil"},
+            {"arabic": "الْوَسْوَاسِ", "transliteration": "al-waswas", "meaning": "the whisperer"},
+            {"arabic": "الْخَنَّاسِ", "transliteration": "al-khannaas", "meaning": "who retreats / withdraws"}
+          ]
+        },
+        {
+          "number": 5,
+          "arabic": "الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ",
+          "translation": "Who whispers [evil] into the breasts of mankind -",
+          "transliteration": "Allazee yuwaswisu fee sudoorin naas",
+          "words": [
+            {"arabic": "الَّذِي", "transliteration": "allazi", "meaning": "Who"},
+            {"arabic": "يُوَسْوِسُ", "transliteration": "yuwaswisu", "meaning": "whispers"},
+            {"arabic": "فِي", "transliteration": "fi", "meaning": "into"},
+            {"arabic": "صُدُورِ", "transliteration": "sudoori", "meaning": "the breasts / hearts"},
+            {"arabic": "النَّاسِ", "transliteration": "an-naas", "meaning": "of mankind"}
+          ]
+        },
+        {
+          "number": 6,
+          "arabic": "مِنَ الْجِنَّةِ وَالنَّاسِ",
+          "translation": "From among the jinn and mankind.",
+          "transliteration": "Minal jinnati wan naas",
+          "words": [
+            {"arabic": "مِنَ", "transliteration": "mina", "meaning": "from among"},
+            {"arabic": "الْجِنَّةِ", "transliteration": "al-jinnah", "meaning": "the jinn"},
+            {"arabic": "وَالنَّاسِ", "transliteration": "wan-naas", "meaning": "and mankind"}
+          ]
+        }
+      ]
+    },
+    {
+      "number": 103,
+      "name": "Al-Asr",
+      "arabicName": "العصر",
+      "meaning": "The Declining Day",
+      "totalVerses": 3,
+      "revelationType": "Meccan",
+      "verses": [
+        {
+          "number": 1,
+          "arabic": "وَالْعَصْرِ",
+          "translation": "By time,",
+          "transliteration": "Wal 'asr",
+          "words": [
+            {"arabic": "وَالْعَصْرِ", "transliteration": "wal-'asr", "meaning": "By time / the era"}
+          ]
+        },
+        {
+          "number": 2,
+          "arabic": "إِنَّ الْإِنسَانَ لَفِي خُسْرٍ",
+          "translation": "Indeed, mankind is in loss,",
+          "transliteration": "Innal insaana la fee khusr",
+          "words": [
+            {"arabic": "إِنَّ", "transliteration": "inna", "meaning": "Indeed"},
+            {"arabic": "الْإِنسَانَ", "transliteration": "al-insaana", "meaning": "mankind"},
+            {"arabic": "لَفِي", "transliteration": "lafi", "meaning": "is surely in"},
+            {"arabic": "خُسْرٍ", "transliteration": "khusr", "meaning": "loss"}
+          ]
+        },
+        {
+          "number": 3,
+          "arabic": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+          "translation": "Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience.",
+          "transliteration": "Illal lazeena aamanu wa 'amilus saalihaati wa tawasaw bil haqqi wa tawasaw bis sabr",
+          "words": [
+            {"arabic": "إِلَّا", "transliteration": "illa", "meaning": "Except"},
+            {"arabic": "الَّذِينَ", "transliteration": "allazeena", "meaning": "those who"},
+            {"arabic": "آمَنُوا", "transliteration": "aamanoo", "meaning": "have believed"},
+            {"arabic": "وَعَمِلُوا", "transliteration": "wa 'amiloo", "meaning": "and done"},
+            {"arabic": "الصَّالِحَاتِ", "transliteration": "as-saalihaati", "meaning": "righteous deeds"},
+            {"arabic": "وَتَوَاصَوْا", "transliteration": "wa tawasaw", "meaning": "and advised each other"},
+            {"arabic": "بِالْحَقِّ", "transliteration": "bil haqq", "meaning": "to truth"},
+            {"arabic": "وَتَوَاصَوْا", "transliteration": "wa tawasaw", "meaning": "and advised each other"},
+            {"arabic": "بِالصَّبْرِ", "transliteration": "bis sabr", "meaning": "to patience"}
+          ]
+        }
+      ]
+    },
+    {
+      "number": 110,
+      "name": "An-Nasr",
+      "arabicName": "النصر",
+      "meaning": "The Divine Support",
+      "totalVerses": 3,
+      "revelationType": "Medinan",
+      "verses": [
+        {
+          "number": 1,
+          "arabic": "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ",
+          "translation": "When the victory of Allah has come and the conquest,",
+          "transliteration": "Iza jaa'a nasrullaahi wal fath",
+          "words": [
+            {"arabic": "إِذَا", "transliteration": "iza", "meaning": "When"},
+            {"arabic": "جَاءَ", "transliteration": "jaa'a", "meaning": "comes"},
+            {"arabic": "نَصْرُ", "transliteration": "nasru", "meaning": "the victory / help"},
+            {"arabic": "اللَّهِ", "transliteration": "allahi", "meaning": "of Allah"},
+            {"arabic": "وَالْفَتْحُ", "transliteration": "wal-fath", "meaning": "and the conquest"}
+          ]
+        },
+        {
+          "number": 2,
+          "arabic": "وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا",
+          "translation": "And you see the people entering into the religion of Allah in multitudes,",
+          "transliteration": "Wa ra-aytan naasa yadkhuloona fee deenil laahi afwaaja",
+          "words": [
+            {"arabic": "وَرَأَيْتَ", "transliteration": "wa ra-ayta", "meaning": "and you see"},
+            {"arabic": "النَّاسَ", "transliteration": "an-naasa", "meaning": "the people"},
+            {"arabic": "يَدْخُلُونَ", "transliteration": "yadkhuloona", "meaning": "entering"},
+            {"arabic": "فِي", "transliteration": "fi", "meaning": "into"},
+            {"arabic": "دِينِ", "transliteration": "deeni", "meaning": "the religion"},
+            {"arabic": "اللَّهِ", "transliteration": "allahi", "meaning": "of Allah"},
+            {"arabic": "أَفْوَاجًا", "transliteration": "afwaaja", "meaning": "in multitudes"}
+          ]
+        },
+        {
+          "number": 3,
+          "arabic": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ إِنَّهُ كَانَ تَوَّابًا",
+          "translation": "Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.",
+          "transliteration": "Fasabbih bihamdi rabbika wastaghfirh, innahu kaana tawwaaba",
+          "words": [
+            {"arabic": "فَسَبِّحْ", "transliteration": "fasabbih", "meaning": "Then glorify / exalt"},
+            {"arabic": "بِحَمْدِ", "transliteration": "bihamdi", "meaning": "with praise"},
+            {"arabic": "رَبِّكَ", "transliteration": "rabbika", "meaning": "of your Lord"},
+            {"arabic": "وَاسْتَغْفِرْهُ", "transliteration": "wastaghfirh", "meaning": "and ask His forgiveness"},
+            {"arabic": "إِنَّهُ", "transliteration": "innahu", "meaning": "Indeed He"},
+            {"arabic": "كَانَ", "transliteration": "kaana", "meaning": "is ever"},
+            {"arabic": "تَوَّابًا", "transliteration": "tawwaaba", "meaning": "Accepting of repentance"}
+          ]
+        }
+      ]
+    },
+    {
+      "number": 108,
+      "name": "Al-Kawthar",
+      "arabicName": "الكوثر",
+      "meaning": "The Abundance",
+      "totalVerses": 3,
+      "revelationType": "Meccan",
+      "verses": [
+        {
+          "number": 1,
+          "arabic": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ",
+          "translation": "Indeed, We have granted you, [O Muhammad], al-Kawthar.",
+          "transliteration": "Inna a'taynakal kawthar",
+          "words": [
+            {"arabic": "إِنَّا", "transliteration": "inna", "meaning": "Indeed We"},
+            {"arabic": "أَعْطَيْنَاكَ", "transliteration": "a'taynaaka", "meaning": "have granted you"},
+            {"arabic": "الْكَوْثَرَ", "transliteration": "al-kawthar", "meaning": "al-Kawthar (abundant good)"}
+          ]
+        },
+        {
+          "number": 2,
+          "arabic": "فَصَلِّ لِرَبِّكَ وَانْحَرْ",
+          "translation": "So pray to your Lord and sacrifice [to Him alone].",
+          "transliteration": "Fasalli li rabbika wanhar",
+          "words": [
+            {"arabic": "فَصَلِّ", "transliteration": "fasalli", "meaning": "So pray"},
+            {"arabic": "لِرَبِّكَ", "transliteration": "li rabbika", "meaning": "to your Lord"},
+            {"arabic": "وَانْحَرْ", "transliteration": "wanhar", "meaning": "and sacrifice"}
+          ]
+        },
+        {
+          "number": 3,
+          "arabic": "إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
+          "translation": "Indeed, your enemy is the one cut off.",
+          "transliteration": "Inna shaani'aka huwal abtar",
+          "words": [
+            {"arabic": "إِنَّ", "transliteration": "inna", "meaning": "Indeed"},
+            {"arabic": "شَانِئَكَ", "transliteration": "shaani'aka", "meaning": "your enemy / hater"},
+            {"arabic": "هُوَ", "transliteration": "huwa", "meaning": "he is"},
+            {"arabic": "الْأَبْتَرُ", "transliteration": "al-abtar", "meaning": "the one cut off"}
+          ]
+        }
+      ]
+    },
+    {
+      "number": 109,
+      "name": "Al-Kafirun",
+      "arabicName": "الكافرون",
+      "meaning": "The Disbelievers",
+      "totalVerses": 6,
+      "revelationType": "Meccan",
+      "verses": [
+        {
+          "number": 1,
+          "arabic": "قُلْ يَا أَيُّهَا الْكَافِرُونَ",
+          "translation": "Say, O disbelievers,",
+          "transliteration": "Qul yaa ayyuhal kaafiroon",
+          "words": [
+            {"arabic": "قُلْ", "transliteration": "qul", "meaning": "Say"},
+            {"arabic": "يَا أَيُّهَا", "transliteration": "yaa ayyuha", "meaning": "O"},
+            {"arabic": "الْكَافِرُونَ", "transliteration": "al-kaafiroon", "meaning": "the disbelievers"}
+          ]
+        },
+        {
+          "number": 2,
+          "arabic": "لَا أَعْبُدُ مَا تَعْبُدُونَ",
+          "translation": "I do not worship what you worship.",
+          "transliteration": "Laa a'budu maa ta'budoon",
+          "words": [
+            {"arabic": "لَا", "transliteration": "laa", "meaning": "I do not"},
+            {"arabic": "أَعْبُدُ", "transliteration": "a'budu", "meaning": "worship"},
+            {"arabic": "مَا", "transliteration": "maa", "meaning": "what"},
+            {"arabic": "تَعْبُدُونَ", "transliteration": "ta'budoon", "meaning": "you worship"}
+          ]
+        },
+        {
+          "number": 3,
+          "arabic": "وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ",
+          "translation": "Nor are you worshippers of what I worship.",
+          "transliteration": "Wa laa antum 'aabidoona maa a'bud",
+          "words": [
+            {"arabic": "وَلَا", "transliteration": "wa laa", "meaning": "Nor are"},
+            {"arabic": "أَنتُمْ", "transliteration": "antum", "meaning": "you"},
+            {"arabic": "عَابِدُونَ", "transliteration": "'aabidoon", "meaning": "worshippers"},
+            {"arabic": "مَا", "transliteration": "maa", "meaning": "of what"},
+            {"arabic": "أَعْبُدُ", "transliteration": "a'bud", "meaning": "I worship"}
+          ]
+        },
+        {
+          "number": 4,
+          "arabic": "وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ",
+          "translation": "Nor will I be a worshipper of what you worship.",
+          "transliteration": "Wa laa ana 'abidum maa 'abadtum",
+          "words": [
+            {"arabic": "وَلَا", "transliteration": "wa laa", "meaning": "Nor will"},
+            {"arabic": "أَنَا", "transliteration": "ana", "meaning": "I be"},
+            {"arabic": "عَابِدٌ", "transliteration": "'aabid", "meaning": "a worshipper"},
+            {"arabic": "مَّا", "transliteration": "maa", "meaning": "of what"},
+            {"arabic": "عَبَدتُّمْ", "transliteration": "'abadtum", "meaning": "you have worshipped"}
+          ]
+        },
+        {
+          "number": 5,
+          "arabic": "وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ",
+          "translation": "Nor will you be worshippers of what I worship.",
+          "transliteration": "Wa laa antum 'aabidoona maa a'bud",
+          "words": [
+            {"arabic": "وَلَا", "transliteration": "wa laa", "meaning": "Nor will"},
+            {"arabic": "أَنتُمْ", "transliteration": "antum", "meaning": "you be"},
+            {"arabic": "عَابِدُونَ", "transliteration": "'aabidoon", "meaning": "worshippers"},
+            {"arabic": "مَا", "transliteration": "maa", "meaning": "of what"},
+            {"arabic": "أَعْبُدُ", "transliteration": "a'bud", "meaning": "I worship"}
+          ]
+        },
+        {
+          "number": 6,
+          "arabic": "لَكُمْ دِينُكُمْ وَلِيَ دِينِ",
+          "translation": "For you is your religion, and for me is my religion.",
+          "transliteration": "Lakum deenukum wa liya deen",
+          "words": [
+            {"arabic": "لَكُمْ", "transliteration": "lakum", "meaning": "For you"},
+            {"arabic": "دِينُكُمْ", "transliteration": "deenukum", "meaning": "is your religion"},
+            {"arabic": "وَلِيَ", "transliteration": "wa liya", "meaning": "and for me"},
+            {"arabic": "دِينِ", "transliteration": "deen", "meaning": "is my religion"}
+          ]
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "name": "Al-Qadr",
+      "arabicName": "القدر",
+      "meaning": "The Power",
+      "totalVerses": 5,
+      "revelationType": "Meccan",
+      "verses": [
+        {
+          "number": 1,
+          "arabic": "إِنَّا أَنزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ",
+          "translation": "Indeed, We sent the Qur'an down during the Night of Decree.",
+          "transliteration": "Inna anzalnaahu fi laylatal qadr",
+          "words": [
+            {"arabic": "إِنَّا", "transliteration": "inna", "meaning": "Indeed We"},
+            {"arabic": "أَنزَلْنَاهُ", "transliteration": "anzalnahu", "meaning": "sent it down"},
+            {"arabic": "فِي", "transliteration": "fi", "meaning": "in"},
+            {"arabic": "لَيْلَةِ", "transliteration": "laylati", "meaning": "the night"},
+            {"arabic": "الْقَدْرِ", "transliteration": "al-qadr", "meaning": "of Power / Decree"}
+          ]
+        },
+        {
+          "number": 2,
+          "arabic": "وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ",
+          "translation": "And what can make you know what is the Night of Decree?",
+          "transliteration": "Wa maa adraaka maa laylatul qadr",
+          "words": [
+            {"arabic": "وَمَا", "transliteration": "wa maa", "meaning": "And what"},
+            {"arabic": "أَدْرَاكَ", "transliteration": "adraaka", "meaning": "can make you know"},
+            {"arabic": "مَا", "transliteration": "maa", "meaning": "what is"},
+            {"arabic": "لَيْلَةُ", "transliteration": "laylatu", "meaning": "the night"},
+            {"arabic": "الْقَدْرِ", "transliteration": "al-qadr", "meaning": "of Power / Decree"}
+          ]
+        },
+        {
+          "number": 3,
+          "arabic": "لَيْلَةُ الْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ",
+          "translation": "The Night of Decree is better than a thousand months.",
+          "transliteration": "Laylatul qadri khayrum min alfi shahr",
+          "words": [
+            {"arabic": "لَيْلَةُ", "transliteration": "laylatu", "meaning": "The Night"},
+            {"arabic": "الْقَدْرِ", "transliteration": "al-qadr", "meaning": "of Power"},
+            {"arabic": "خَيْرٌ", "transliteration": "khayr", "meaning": "is better"},
+            {"arabic": "مِّنْ", "transliteration": "min", "meaning": "than"},
+            {"arabic": "أَلْفِ", "transliteration": "alfi", "meaning": "a thousand"},
+            {"arabic": "شَهْرٍ", "transliteration": "shahr", "meaning": "months"}
+          ]
+        },
+        {
+          "number": 4,
+          "arabic": "تَنَزَّلُ الْمَلَائِكَةُ وَالرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍ",
+          "translation": "The angels and the Spirit descend therein by permission of their Lord for every matter.",
+          "transliteration": "Tanazzalul malaa-ikatu war roohu feehaa bi-izni rabbihim min kulli amr",
+          "words": [
+            {"arabic": "تَنَزَّلُ", "transliteration": "tanazzalu", "meaning": "descend"},
+            {"arabic": "الْمَلَائِكَةُ", "transliteration": "al-malaa'ikatu", "meaning": "the angels"},
+            {"arabic": "وَالرُّوحُ", "transliteration": "war-roohu", "meaning": "and the Spirit"},
+            {"arabic": "فِيهَا", "transliteration": "feeha", "meaning": "therein"},
+            {"arabic": "بِإِذْنِ", "transliteration": "bi-izni", "meaning": "by permission"},
+            {"arabic": "رَبِّهِم", "transliteration": "rabbihim", "meaning": "of their Lord"},
+            {"arabic": "مِّن", "transliteration": "min", "meaning": "for"},
+            {"arabic": "كُلِّ", "transliteration": "kulli", "meaning": "every"},
+            {"arabic": "أَمْرٍ", "transliteration": "amr", "meaning": "matter"}
+          ]
+        },
+        {
+          "number": 5,
+          "arabic": "سَلَامٌ هِيَ حَتَّىٰ مَطْلَعِ الْفَجْرِ",
+          "translation": "Peace it is until the emergence of dawn.",
+          "transliteration": "Salaamun hiya hattaa mat la'il fajr",
+          "words": [
+            {"arabic": "سَلَامٌ", "transliteration": "salaam", "meaning": "Peace"},
+            {"arabic": "هِيَ", "transliteration": "hiya", "meaning": "it is"},
+            {"arabic": "حَتَّىٰ", "transliteration": "hatta", "meaning": "until"},
+            {"arabic": "مَطْلَعِ", "transliteration": "mat la'i", "meaning": "the emergence"},
+            {"arabic": "الْفَجْرِ", "transliteration": "al-fajr", "meaning": "of dawn"}
+          ]
+        }
+      ]
+    }
+  ]
+}
