@@ -108,6 +108,10 @@ class ProfileScreen extends StatelessWidget {
           ),
           const SizedBox(height: 20),
 
+          // Weekly streak calendar
+          _WeeklyStreakCalendar(lastStudyDate: p.lastStudyDate, streak: p.streak),
+          const SizedBox(height: 20),
+
           // Achievements section
           _AchievementsPreview(
             achievements: p.achievements,
@@ -377,6 +381,118 @@ class _AchievementBadge extends StatelessWidget {
           child: Text(achievement.emoji,
               style: const TextStyle(fontSize: 26)),
         ),
+      ),
+    );
+  }
+}
+
+class _WeeklyStreakCalendar extends StatelessWidget {
+  final DateTime? lastStudyDate;
+  final int streak;
+
+  const _WeeklyStreakCalendar(
+      {required this.lastStudyDate, required this.streak});
+
+  @override
+  Widget build(BuildContext context) {
+    final now = DateTime.now();
+    final today = DateTime(now.year, now.month, now.day);
+
+    // Build last 7 days
+    final days = List.generate(7, (i) => today.subtract(Duration(days: 6 - i)));
+
+    // Determine which days had activity based on streak and lastStudyDate
+    final studiedDays = <DateTime>{};
+    if (lastStudyDate != null && streak > 0) {
+      final lastDay = DateTime(
+        lastStudyDate!.year,
+        lastStudyDate!.month,
+        lastStudyDate!.day,
+      );
+      for (var i = 0; i < streak && i < 7; i++) {
+        studiedDays.add(lastDay.subtract(Duration(days: i)));
+      }
+    }
+
+    const dayLabels = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
+
+    return Container(
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: AppColors.surface,
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: AppColors.cardBorder, width: 2),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text(
+            'This Week',
+            style: TextStyle(
+              fontWeight: FontWeight.w800,
+              fontSize: 15,
+              color: AppColors.textPrimary,
+            ),
+          ),
+          const SizedBox(height: 14),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: days.asMap().entries.map((entry) {
+              final day = entry.value;
+              final weekday = (day.weekday - 1) % 7; // 0=Mon
+              final label = dayLabels[weekday];
+              final isStudied = studiedDays.contains(day);
+              final isToday = day == today;
+
+              return Column(
+                children: [
+                  Container(
+                    width: 36,
+                    height: 36,
+                    decoration: BoxDecoration(
+                      color: isStudied
+                          ? AppColors.primary
+                          : isToday
+                              ? AppColors.primaryLight
+                              : AppColors.background,
+                      shape: BoxShape.circle,
+                      border: isToday && !isStudied
+                          ? Border.all(
+                              color: AppColors.primary, width: 2)
+                          : null,
+                    ),
+                    child: Center(
+                      child: isStudied
+                          ? const Text('🔥',
+                              style: TextStyle(fontSize: 16))
+                          : Text(
+                              '${day.day}',
+                              style: TextStyle(
+                                fontSize: 12,
+                                fontWeight: FontWeight.w700,
+                                color: isToday
+                                    ? AppColors.primaryDark
+                                    : AppColors.textLight,
+                              ),
+                            ),
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    label,
+                    style: TextStyle(
+                      fontSize: 10,
+                      fontWeight: FontWeight.w700,
+                      color: isStudied
+                          ? AppColors.primary
+                          : AppColors.textLight,
+                    ),
+                  ),
+                ],
+              );
+            }).toList(),
+          ),
+        ],
       ),
     );
   }

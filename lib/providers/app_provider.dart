@@ -195,6 +195,16 @@ class AppProvider extends ChangeNotifier {
       _progress.vocabulary.values.toList()
         ..sort((a, b) => b.firstSeen.compareTo(a.firstSeen));
 
+  VocabularyItem? get wordOfTheDay {
+    final vocab = _progress.vocabulary.values.toList();
+    if (vocab.isEmpty) return null;
+    // Use today's date as seed so it's consistent across the day
+    final now = DateTime.now();
+    final seed = now.year * 10000 + now.month * 100 + now.day;
+    final index = seed % vocab.length;
+    return vocab[index];
+  }
+
   // ── Surah info ─────────────────────────────────────────────────────────────
 
   List<Map<String, dynamic>> get surahsSortedByLength =>

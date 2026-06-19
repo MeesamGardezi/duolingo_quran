@@ -207,6 +207,8 @@ class _LessonPath extends StatelessWidget {
                   return Column(
                     children: [
                       _DailyChallengeCard(provider: provider),
+                      const SizedBox(height: 8),
+                      _WordOfTheDayCard(provider: provider),
                       const SizedBox(height: 4),
                     ],
                   );
@@ -244,6 +246,85 @@ class _LessonPath extends StatelessWidget {
                 ),
               )
           : null,
+    );
+  }
+}
+
+class _WordOfTheDayCard extends StatelessWidget {
+  final AppProvider provider;
+  const _WordOfTheDayCard({required this.provider});
+
+  @override
+  Widget build(BuildContext context) {
+    final word = provider.wordOfTheDay;
+    if (word == null) return const SizedBox.shrink();
+
+    return Container(
+      padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: AppColors.surface,
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: AppColors.cardBorder, width: 2),
+      ),
+      child: Row(
+        children: [
+          Container(
+            width: 44,
+            height: 44,
+            decoration: const BoxDecoration(
+              color: Color(0xFFE8F7FF),
+              shape: BoxShape.circle,
+            ),
+            child: const Center(
+              child: Text('📝', style: TextStyle(fontSize: 20)),
+            ),
+          ),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const Text(
+                  'WORD OF THE DAY',
+                  style: TextStyle(
+                    fontSize: 9,
+                    fontWeight: FontWeight.w900,
+                    color: AppColors.textSecondary,
+                    letterSpacing: 1.2,
+                  ),
+                ),
+                const SizedBox(height: 2),
+                Text(
+                  word.arabic,
+                  textDirection: TextDirection.rtl,
+                  style: const TextStyle(
+                    fontFamily: 'Amiri',
+                    fontSize: 20,
+                    color: AppColors.arabicGreen,
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+                Text(
+                  word.meaning,
+                  style: const TextStyle(
+                    fontSize: 13,
+                    color: AppColors.textPrimary,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          Text(
+            word.transliteration,
+            style: const TextStyle(
+              fontSize: 11,
+              color: AppColors.textSecondary,
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
