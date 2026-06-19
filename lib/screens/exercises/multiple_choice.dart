@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import '../../models/exercise.dart';
 import '../../widgets/arabic_text.dart';
 import 'exercise_base.dart';
@@ -31,9 +32,12 @@ class _MultipleChoiceExerciseState extends State<MultipleChoiceExercise> {
       _isCorrect = correct;
     });
     if (correct) {
+      HapticFeedback.lightImpact();
       Future.delayed(const Duration(milliseconds: 600), () {
         if (mounted) widget.onAnswer(true);
       });
+    } else {
+      HapticFeedback.heavyImpact();
     }
   }
 

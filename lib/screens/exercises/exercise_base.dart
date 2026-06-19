@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import '../../models/exercise.dart';
 import '../../theme/app_theme.dart';
 
@@ -166,7 +167,14 @@ class OptionButton extends StatelessWidget {
     }
 
     return GestureDetector(
-      onTap: correct == null ? onTap : null,
+      onTap: correct == null
+          ? onTap != null
+              ? () {
+                  HapticFeedback.selectionClick();
+                  onTap!();
+                }
+              : null
+          : null,
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 150),
         width: double.infinity,
