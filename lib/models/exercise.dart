@@ -1,9 +1,16 @@
 enum ExerciseType {
-  translationMatch,   // Tap the correct translation of an Arabic word
-  fillInBlank,        // Fill in the missing word in a verse
-  wordOrder,          // Arrange English words to match verse meaning
-  multipleChoice,     // Pick the correct translation of a full verse
-  tapWhatYouHear,     // (future) Tap the Arabic words you hear
+  intro,           // Show verse + meaning, tap "Got it"
+  translationMatch, // Arabic word → pick English meaning
+  fillInBlank,      // Verse with one word blanked, pick Arabic word
+  wordOrder,        // Arrange English word meanings in order
+  multipleChoice,   // Arabic verse → pick correct English translation
+  matchingPairs,    // Tap 4 Arabic words + 4 meanings to match them
+}
+
+class ExercisePair {
+  final String arabic;
+  final String meaning;
+  const ExercisePair(this.arabic, this.meaning);
 }
 
 class Exercise {
@@ -15,6 +22,7 @@ class Exercise {
   final String? hint;
   final int surahNumber;
   final int verseNumber;
+  final List<ExercisePair>? pairs; // for matchingPairs type
 
   const Exercise({
     required this.type,
@@ -25,16 +33,17 @@ class Exercise {
     this.hint,
     required this.surahNumber,
     required this.verseNumber,
+    this.pairs,
   });
 }
 
 class LessonSession {
   final int surahNumber;
-  final int lessonIndex;
+  final int lessonIndex; // = verseNumber - 1
   final List<Exercise> exercises;
   int currentIndex;
   int correctCount;
-  int hearts;
+  int wrongCount;
   final int xpReward;
 
   LessonSession({
@@ -43,16 +52,17 @@ class LessonSession {
     required this.exercises,
     this.currentIndex = 0,
     this.correctCount = 0,
-    this.hearts = 3,
+    this.wrongCount = 0,
     this.xpReward = 10,
   });
 
   bool get isComplete => currentIndex >= exercises.length;
   Exercise get currentExercise => exercises[currentIndex];
-  double get progress => exercises.isEmpty ? 0 : currentIndex / exercises.length;
-  bool get isPerfect => correctCount == exercises.length;
+  double get progress =>
+      exercises.isEmpty ? 0 : currentIndex / exercises.length;
+  bool get isPerfect => wrongCount == 0 && exercises.isNotEmpty;
 
   void advance() => currentIndex++;
   void recordCorrect() => correctCount++;
-  void loseHeart() => hearts = (hearts - 1).clamp(0, 3);
+  void recordWrong() => wrongCount++;
 }
