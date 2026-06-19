@@ -14,6 +14,9 @@ class UserProgress {
   int totalPerfectLessons;
   int totalReviewSessions;
 
+  // Daily challenge
+  DateTime? lastDailyChallengeDate;
+
   // Global hearts (0-5, refill 1 per 4 hours)
   int hearts;
   DateTime? lastHeartLostAt;
@@ -41,6 +44,7 @@ class UserProgress {
     this.totalLessonsCompleted = 0,
     this.totalPerfectLessons = 0,
     this.totalReviewSessions = 0,
+    this.lastDailyChallengeDate,
     this.hearts = maxHearts,
     this.lastHeartLostAt,
     Map<int, SurahProgress>? surahProgress,
@@ -52,6 +56,13 @@ class UserProgress {
 
   static List<Achievement> _defaultAchievements() =>
       buildAllAchievements({});
+
+  bool get isDailyChallengeAvailable {
+    if (lastDailyChallengeDate == null) return true;
+    final now = DateTime.now();
+    final last = lastDailyChallengeDate!;
+    return !(now.year == last.year && now.month == last.month && now.day == last.day);
+  }
 
   int get level => (totalXP / 500).floor() + 1;
   int get xpInCurrentLevel => totalXP % 500;
@@ -172,6 +183,7 @@ class UserProgress {
         'totalLessonsCompleted': totalLessonsCompleted,
         'totalPerfectLessons': totalPerfectLessons,
         'totalReviewSessions': totalReviewSessions,
+        'lastDailyChallengeDate': lastDailyChallengeDate?.toIso8601String(),
         'hearts': hearts,
         'lastHeartLostAt': lastHeartLostAt?.toIso8601String(),
         'surahProgress': surahProgress.map(
@@ -215,6 +227,9 @@ class UserProgress {
       totalLessonsCompleted: json['totalLessonsCompleted'] as int? ?? 0,
       totalPerfectLessons: json['totalPerfectLessons'] as int? ?? 0,
       totalReviewSessions: json['totalReviewSessions'] as int? ?? 0,
+      lastDailyChallengeDate: json['lastDailyChallengeDate'] != null
+          ? DateTime.tryParse(json['lastDailyChallengeDate'] as String)
+          : null,
       hearts: json['hearts'] as int? ?? UserProgress.maxHearts,
       lastHeartLostAt: json['lastHeartLostAt'] != null
           ? DateTime.tryParse(json['lastHeartLostAt'] as String)

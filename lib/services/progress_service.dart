@@ -42,6 +42,11 @@ class ProgressService {
     await prefs.setBool(_onboardingKey, true);
   }
 
+  Future<void> reset() async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.remove(_progressKey);
+  }
+
   // Records a completed lesson and returns newly unlocked achievements
   Future<void> completeLesson({
     required UserProgress progress,

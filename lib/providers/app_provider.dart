@@ -143,6 +143,42 @@ class AppProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  // ── Daily Challenge ────────────────────────────────────────────────────────
+
+  bool get isDailyChallengeAvailable => _progress.isDailyChallengeAvailable;
+
+  LessonSession buildDailyChallenge() {
+    final allVerses = QuranRepository.instance.loadedSurahs
+        .expand((s) => s.verses)
+        .toList();
+
+    final completedRefs = orderedLessons.where(isLessonComplete).toList();
+
+    final exercises = _generator.generateDailyChallenge(
+      vocabulary: _progress.vocabulary.values.toList(),
+      completedRefs: completedRefs,
+      allVerses: allVerses,
+    );
+
+    return LessonSession(
+      surahNumber: 0,
+      lessonIndex: -2,
+      exercises: exercises.isEmpty
+          ? _generator.generateReviewExercises(
+              _progress.vocabulary.values.take(5).toList(), allVerses)
+          : exercises,
+      xpReward: 30,
+    );
+  }
+
+  Future<void> recordDailyChallengeComplete(LessonSession session) async {
+    _progress.lastDailyChallengeDate = DateTime.now();
+    _progress.addXP(session.xpReward);
+    _pendingAchievements = AchievementService.checkAfterLesson(_progress);
+    await ProgressService.instance.save(_progress);
+    notifyListeners();
+  }
+
   // ── Hearts ─────────────────────────────────────────────────────────────────
 
   int get hearts => _progress.currentHearts;
@@ -175,6 +211,12 @@ class AppProvider extends ChangeNotifier {
   Future<void> setUserName(String name) async {
     _progress.userName = name;
     await ProgressService.instance.save(_progress);
+    notifyListeners();
+  }
+
+  Future<void> resetProgress() async {
+    await ProgressService.instance.reset();
+    _progress = UserProgress();
     notifyListeners();
   }
 }

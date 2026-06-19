@@ -16,11 +16,13 @@ import 'lesson_complete_screen.dart';
 class LessonScreen extends StatefulWidget {
   final LessonRef lessonRef;
   final bool isReview;
+  final bool isDailyChallenge;
 
   const LessonScreen({
     super.key,
     required this.lessonRef,
     this.isReview = false,
+    this.isDailyChallenge = false,
   });
 
   @override
@@ -40,7 +42,15 @@ class _LessonScreenState extends State<LessonScreen> {
   void _buildSession() {
     final provider = context.read<AppProvider>();
     _hearts = provider.hearts;
-    final session = provider.buildLesson(widget.lessonRef);
+
+    LessonSession? session;
+    if (widget.isDailyChallenge) {
+      session = provider.buildDailyChallenge();
+    } else if (widget.isReview && widget.lessonRef.surahNumber == 0) {
+      session = provider.buildReviewSession();
+    } else {
+      session = provider.buildLesson(widget.lessonRef);
+    }
     setState(() => _session = session);
   }
 
@@ -69,7 +79,9 @@ class _LessonScreenState extends State<LessonScreen> {
 
   Future<void> _onLessonComplete() async {
     final provider = context.read<AppProvider>();
-    if (!widget.isReview) {
+    if (widget.isDailyChallenge) {
+      await provider.recordDailyChallengeComplete(_session!);
+    } else if (!widget.isReview) {
       await provider.recordLessonComplete(_session!);
     }
 
@@ -79,7 +91,8 @@ class _LessonScreenState extends State<LessonScreen> {
       MaterialPageRoute(
         builder: (_) => LessonCompleteScreen(
           session: _session!,
-          isReview: widget.isReview,
+          isReview: widget.isReview || widget.isDailyChallenge,
+          isDailyChallenge: widget.isDailyChallenge,
         ),
       ),
     );

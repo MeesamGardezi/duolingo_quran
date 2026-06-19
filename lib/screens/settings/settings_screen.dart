@@ -138,6 +138,7 @@ class SettingsScreen extends StatelessWidget {
   }
 
   void _confirmReset(BuildContext context) {
+    final provider = context.read<AppProvider>();
     showDialog(
       context: context,
       builder: (ctx) => AlertDialog(
@@ -152,9 +153,9 @@ class SettingsScreen extends StatelessWidget {
             child: const Text('Cancel'),
           ),
           TextButton(
-            onPressed: () {
-              // In a real app you'd call provider.resetProgress()
+            onPressed: () async {
               Navigator.pop(ctx);
+              await provider.resetProgress();
             },
             child: const Text('Reset',
                 style: TextStyle(

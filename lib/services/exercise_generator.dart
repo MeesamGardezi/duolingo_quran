@@ -1,6 +1,8 @@
 import 'dart:math';
 import '../models/surah.dart';
 import '../models/exercise.dart';
+import '../models/vocabulary_item.dart';
+import '../data/quran_repository.dart';
 
 class ExerciseGenerator {
   final Random _random = Random();
@@ -199,9 +201,8 @@ class ExerciseGenerator {
     return all;
   }
 
-  // Generates review exercises from a list of vocabulary items
   List<Exercise> generateReviewExercises(
-    List<dynamic> items, // VocabularyItem list
+    List<VocabularyItem> items,
     List<Verse> allVerses,
   ) {
     final exercises = <Exercise>[];
@@ -209,25 +210,89 @@ class ExerciseGenerator {
       final distractors = allVerses
           .expand((v) => v.words)
           .where((w) => w.arabic != item.arabic)
-          .map((w) => w.meaning as String)
+          .map((w) => w.meaning)
           .toSet()
           .toList()
         ..shuffle(_random);
 
-      final options = [item.meaning as String, ...distractors.take(3)]
-        ..shuffle(_random);
+      final options = [item.meaning, ...distractors.take(3)]..shuffle(_random);
 
       exercises.add(Exercise(
         type: ExerciseType.translationMatch,
         question: 'What does this word mean?',
-        correctAnswer: item.meaning as String,
+        correctAnswer: item.meaning,
         options: options,
-        arabicText: item.arabic as String,
-        hint: item.transliteration as String,
-        surahNumber: item.surahNumber as int,
-        verseNumber: item.verseNumber as int,
+        arabicText: item.arabic,
+        hint: item.transliteration,
+        surahNumber: item.surahNumber,
+        verseNumber: item.verseNumber,
       ));
     }
+    exercises.shuffle(_random);
+    return exercises;
+  }
+
+  List<Exercise> generateDailyChallenge({
+    required List<VocabularyItem> vocabulary,
+    required List<LessonRef> completedRefs,
+    required List<Verse> allVerses,
+  }) {
+    final exercises = <Exercise>[];
+
+    // Up to 5 vocab word exercises
+    final shuffledVocab = List<VocabularyItem>.from(vocabulary)..shuffle(_random);
+    for (final item in shuffledVocab.take(5)) {
+      final distractors = allVerses
+          .expand((v) => v.words)
+          .where((w) => w.arabic != item.arabic && w.meaning != item.meaning)
+          .map((w) => w.meaning)
+          .toSet()
+          .toList()
+        ..shuffle(_random);
+      if (distractors.isEmpty) continue;
+
+      final options = [item.meaning, ...distractors.take(3)]..shuffle(_random);
+      exercises.add(Exercise(
+        type: ExerciseType.translationMatch,
+        question: 'What does this Arabic word mean?',
+        correctAnswer: item.meaning,
+        options: options,
+        arabicText: item.arabic,
+        hint: item.transliteration,
+        surahNumber: item.surahNumber,
+        verseNumber: item.verseNumber,
+      ));
+    }
+
+    // Up to 5 verse translation exercises from completed verses
+    final shuffledRefs = List<LessonRef>.from(completedRefs)..shuffle(_random);
+    for (final ref in shuffledRefs.take(5)) {
+      final surah = QuranRepository.instance.getSurah(ref.surahNumber);
+      if (surah == null) continue;
+      final verseList = surah.verses.where((v) => v.number == ref.verseNumber).toList();
+      if (verseList.isEmpty) continue;
+      final verse = verseList.first;
+
+      final distractors = allVerses
+          .where((v) => v.arabic != verse.arabic)
+          .map((v) => v.translation)
+          .toSet()
+          .toList()
+        ..shuffle(_random);
+
+      final options = [verse.translation, ...distractors.take(3)]..shuffle(_random);
+      exercises.add(Exercise(
+        type: ExerciseType.multipleChoice,
+        question: 'Select the correct translation:',
+        correctAnswer: verse.translation,
+        options: options,
+        arabicText: verse.arabic,
+        hint: verse.transliteration,
+        surahNumber: ref.surahNumber,
+        verseNumber: ref.verseNumber,
+      ));
+    }
+
     exercises.shuffle(_random);
     return exercises;
   }

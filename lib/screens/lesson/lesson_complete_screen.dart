@@ -9,11 +9,13 @@ import '../../theme/app_theme.dart';
 class LessonCompleteScreen extends StatefulWidget {
   final LessonSession session;
   final bool isReview;
+  final bool isDailyChallenge;
 
   const LessonCompleteScreen({
     super.key,
     required this.session,
     this.isReview = false,
+    this.isDailyChallenge = false,
   });
 
   @override
@@ -100,9 +102,11 @@ class _LessonCompleteScreenState extends State<LessonCompleteScreen>
                         Text(
                           session.isPerfect
                               ? 'Perfect!'
-                              : widget.isReview
-                                  ? 'Review Complete!'
-                                  : 'Lesson Complete!',
+                              : widget.isDailyChallenge
+                                  ? 'Challenge Complete!'
+                                  : widget.isReview
+                                      ? 'Review Complete!'
+                                      : 'Lesson Complete!',
                           style: const TextStyle(
                             fontSize: 30,
                             fontWeight: FontWeight.w900,

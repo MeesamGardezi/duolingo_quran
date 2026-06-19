@@ -6,6 +6,7 @@ import '../../theme/app_theme.dart';
 import '../../widgets/progress_bar.dart';
 import '../lesson/lesson_screen.dart';
 import 'surah_list_screen.dart';
+import '../settings/settings_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -68,36 +69,50 @@ class _TopBar extends StatelessWidget {
                   const SizedBox(width: 16),
                   _HeartsDisplay(hearts: provider.hearts),
                   const Spacer(),
-                  GestureDetector(
-                    onTap: () => Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (_) => const SurahListScreen()),
-                    ),
-                    child: Container(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 12, vertical: 6),
-                      decoration: BoxDecoration(
-                        border: Border.all(
-                            color: AppColors.primary, width: 2),
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Row(
-                        children: const [
-                          Icon(Icons.menu_book,
-                              color: AppColors.primary, size: 16),
-                          SizedBox(width: 4),
-                          Text(
-                            'All Surahs',
-                            style: TextStyle(
-                              color: AppColors.primary,
-                              fontWeight: FontWeight.w800,
-                              fontSize: 12,
-                            ),
+                  Row(
+                    children: [
+                      GestureDetector(
+                        onTap: () => Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (_) => const SurahListScreen()),
+                        ),
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 12, vertical: 6),
+                          decoration: BoxDecoration(
+                            border: Border.all(
+                                color: AppColors.primary, width: 2),
+                            borderRadius: BorderRadius.circular(20),
                           ),
-                        ],
+                          child: Row(
+                            children: const [
+                              Icon(Icons.menu_book,
+                                  color: AppColors.primary, size: 16),
+                              SizedBox(width: 4),
+                              Text(
+                                'All Surahs',
+                                style: TextStyle(
+                                  color: AppColors.primary,
+                                  fontWeight: FontWeight.w800,
+                                  fontSize: 12,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
                       ),
-                    ),
+                      const SizedBox(width: 8),
+                      GestureDetector(
+                        onTap: () => Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (_) => const SettingsScreen()),
+                        ),
+                        child: const Icon(Icons.settings_outlined,
+                            color: AppColors.textSecondary, size: 22),
+                      ),
+                    ],
                   ),
                 ],
               ),
@@ -187,8 +202,18 @@ class _LessonPath extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(20, 12, 20, 80),
           sliver: SliverList(
             delegate: SliverChildBuilderDelegate(
-              (ctx, i) => _buildItem(ctx, items[i]),
-              childCount: items.length,
+              (ctx, i) {
+                if (i == 0) {
+                  return Column(
+                    children: [
+                      _DailyChallengeCard(provider: provider),
+                      const SizedBox(height: 4),
+                    ],
+                  );
+                }
+                return _buildItem(ctx, items[i - 1]);
+              },
+              childCount: items.length + 1,
             ),
           ),
         ),
@@ -219,6 +244,108 @@ class _LessonPath extends StatelessWidget {
                 ),
               )
           : null,
+    );
+  }
+}
+
+class _DailyChallengeCard extends StatelessWidget {
+  final AppProvider provider;
+  const _DailyChallengeCard({required this.provider});
+
+  @override
+  Widget build(BuildContext context) {
+    final available = provider.isDailyChallengeAvailable;
+    final hasLessons = provider.completedLessonsCount > 0;
+
+    if (!hasLessons) return const SizedBox.shrink();
+
+    return GestureDetector(
+      onTap: available
+          ? () => Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) => LessonScreen(
+                    lessonRef: LessonRef(surahNumber: 0, verseNumber: 0),
+                    isDailyChallenge: true,
+                  ),
+                ),
+              )
+          : null,
+      child: Container(
+        margin: const EdgeInsets.only(bottom: 8),
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: available
+                ? [const Color(0xFFFFC800), const Color(0xFFFF9600)]
+                : [AppColors.cardBorder, AppColors.cardBorder],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+          borderRadius: BorderRadius.circular(18),
+          boxShadow: available
+              ? [
+                  BoxShadow(
+                    color: AppColors.gold.withOpacity(0.35),
+                    blurRadius: 12,
+                    offset: const Offset(0, 4),
+                  )
+                ]
+              : null,
+        ),
+        child: Row(
+          children: [
+            Text(
+              available ? '⚡' : '✅',
+              style: const TextStyle(fontSize: 36),
+            ),
+            const SizedBox(width: 14),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'Daily Challenge',
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w900,
+                      color: available ? Colors.white : AppColors.textSecondary,
+                    ),
+                  ),
+                  Text(
+                    available
+                        ? 'Earn 30 XP — mixed review!'
+                        : 'Completed — come back tomorrow',
+                    style: TextStyle(
+                      fontSize: 12,
+                      color: available
+                          ? Colors.white.withOpacity(0.85)
+                          : AppColors.textLight,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            if (available)
+              Container(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: const Text(
+                  'GO',
+                  style: TextStyle(
+                    fontWeight: FontWeight.w900,
+                    color: Color(0xFFFF9600),
+                    fontSize: 13,
+                  ),
+                ),
+              ),
+          ],
+        ),
+      ),
     );
   }
 }
