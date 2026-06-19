@@ -1,6 +1,7 @@
 class SurahTips {
   static const Map<int, String> _tips = {
     1: 'Al-Fatiha is recited in every unit of prayer (raka\'ah). A Muslim recites it at least 17 times daily.',
+    78: 'An-Naba (The Great News) opens with a question the people of Mecca were disputing: the news of the Day of Resurrection.',
     81: 'At-Takwir depicts the Day of Judgment as a cosmic "rolling up" — the sun dimmed, stars scattered, mountains moved.',
     82: 'Al-Infitar asks a powerful question: "What has deceived you concerning your Lord, the Generous?" — reminding us of Allah\'s boundless gifts.',
     85: 'Al-Buruj tells the story of the People of the Trench — believers thrown into fire for their faith, yet Allah promises them Paradise.',

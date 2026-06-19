@@ -207,6 +207,1098 @@
       ]
     },
     {
+      "number": 78,
+      "name": "An-Naba",
+      "arabicName": "النبأ",
+      "verses": [
+        {
+          "number": 1,
+          "arabic": "عَمَّ يَتَسَآءَلُونَ",
+          "transliteration": "ʿAmma yatasāʾalūn",
+          "translation": "About what are they asking one another?",
+          "words": [
+            {
+              "arabic": "عَمَّ",
+              "transliteration": "ʿamma",
+              "translation": "about what"
+            },
+            {
+              "arabic": "يَتَسَآءَلُونَ",
+              "transliteration": "yatasāʾalūna",
+              "translation": "are they asking one another"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "arabic": "عَنِ ٱلنَّبَإِ ٱلۡعَظِيمِ",
+          "transliteration": "ʿAninnabaʾil-ʿaẓīm",
+          "translation": "About the great news",
+          "words": [
+            {
+              "arabic": "عَنِ",
+              "transliteration": "ʿani",
+              "translation": "about"
+            },
+            {
+              "arabic": "ٱلنَّبَإِ",
+              "transliteration": "an-nabaʾi",
+              "translation": "the news"
+            },
+            {
+              "arabic": "ٱلۡعَظِيمِ",
+              "transliteration": "al-ʿaẓīm",
+              "translation": "great"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "arabic": "ٱلَّذِي هُمۡ فِيهِ مُخۡتَلِفُونَ",
+          "transliteration": "Alladhī hum fīhi mukhtalifūn",
+          "translation": "That over which they are in disagreement",
+          "words": [
+            {
+              "arabic": "ٱلَّذِي",
+              "transliteration": "alladhī",
+              "translation": "that over which"
+            },
+            {
+              "arabic": "هُمۡ",
+              "transliteration": "hum",
+              "translation": "they are"
+            },
+            {
+              "arabic": "فِيهِ",
+              "transliteration": "fīhi",
+              "translation": "in"
+            },
+            {
+              "arabic": "مُخۡتَلِفُونَ",
+              "transliteration": "mukhtalifūn",
+              "translation": "disagreement"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "arabic": "كَلَّا سَيَعۡلَمُونَ",
+          "transliteration": "Kallā sayaʿlamūn",
+          "translation": "No! They are going to know",
+          "words": [
+            {
+              "arabic": "كَلَّا",
+              "transliteration": "kallā",
+              "translation": "no"
+            },
+            {
+              "arabic": "سَيَعۡلَمُونَ",
+              "transliteration": "sayaʿlamūna",
+              "translation": "they are going to know"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "arabic": "ثُمَّ كَلَّا سَيَعۡلَمُونَ",
+          "transliteration": "Thumma kallā sayaʿlamūn",
+          "translation": "Then no! They are going to know",
+          "words": [
+            {
+              "arabic": "ثُمَّ",
+              "transliteration": "thumma",
+              "translation": "then"
+            },
+            {
+              "arabic": "كَلَّا",
+              "transliteration": "kallā",
+              "translation": "no"
+            },
+            {
+              "arabic": "سَيَعۡلَمُونَ",
+              "transliteration": "sayaʿlamūna",
+              "translation": "they are going to know"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "arabic": "أَلَمۡ نَجۡعَلِ ٱلۡأَرۡضَ مِهَٰدًا",
+          "transliteration": "Alam najʿalil-arḍa mihādā",
+          "translation": "Have We not made the earth a resting place?",
+          "words": [
+            {
+              "arabic": "أَلَمۡ",
+              "transliteration": "alam",
+              "translation": "have We not"
+            },
+            {
+              "arabic": "نَجۡعَلِ",
+              "transliteration": "najʿali",
+              "translation": "made"
+            },
+            {
+              "arabic": "ٱلۡأَرۡضَ",
+              "transliteration": "al-arḍa",
+              "translation": "the earth"
+            },
+            {
+              "arabic": "مِهَٰدًا",
+              "transliteration": "mihādā",
+              "translation": "a resting place"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "arabic": "وَٱلۡجِبَالَ أَوۡتَادًا",
+          "transliteration": "Wal-jibāla awtādā",
+          "translation": "And the mountains as pegs?",
+          "words": [
+            {
+              "arabic": "وَٱلۡجِبَالَ",
+              "transliteration": "wal-jibāla",
+              "translation": "and the mountains"
+            },
+            {
+              "arabic": "أَوۡتَادًا",
+              "transliteration": "awtādā",
+              "translation": "as pegs"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "arabic": "وَخَلَقۡنَٰكُمۡ أَزۡوَٰجًا",
+          "transliteration": "Wa-khalaqnākum azwājā",
+          "translation": "And created you in pairs",
+          "words": [
+            {
+              "arabic": "وَخَلَقۡنَٰكُمۡ",
+              "transliteration": "wa-khalaqnākum",
+              "translation": "and created you"
+            },
+            {
+              "arabic": "أَزۡوَٰجًا",
+              "transliteration": "azwājā",
+              "translation": "in pairs"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "arabic": "وَجَعَلۡنَا نَوۡمَكُمۡ سُبَاتًا",
+          "transliteration": "Wa-jaʿalnā nawmakum subātā",
+          "translation": "And made your sleep as rest",
+          "words": [
+            {
+              "arabic": "وَجَعَلۡنَا",
+              "transliteration": "wa-jaʿalnā",
+              "translation": "and made"
+            },
+            {
+              "arabic": "نَوۡمَكُمۡ",
+              "transliteration": "nawmakum",
+              "translation": "your sleep"
+            },
+            {
+              "arabic": "سُبَاتًا",
+              "transliteration": "subātā",
+              "translation": "as rest"
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "arabic": "وَجَعَلۡنَا ٱلَّيۡلَ لِبَاسًا",
+          "transliteration": "Wa-jaʿalnal-layla libāsā",
+          "translation": "And made the night as covering",
+          "words": [
+            {
+              "arabic": "وَجَعَلۡنَا",
+              "transliteration": "wa-jaʿalnā",
+              "translation": "and made"
+            },
+            {
+              "arabic": "ٱلَّيۡلَ",
+              "transliteration": "al-layla",
+              "translation": "the night"
+            },
+            {
+              "arabic": "لِبَاسًا",
+              "transliteration": "libāsā",
+              "translation": "as covering"
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "arabic": "وَجَعَلۡنَا ٱلنَّهَارَ مَعَاشًا",
+          "transliteration": "Wa-jaʿalnan-nahāra maʿāshā",
+          "translation": "And made the day for livelihood",
+          "words": [
+            {
+              "arabic": "وَجَعَلۡنَا",
+              "transliteration": "wa-jaʿalnā",
+              "translation": "and made"
+            },
+            {
+              "arabic": "ٱلنَّهَارَ",
+              "transliteration": "an-nahāra",
+              "translation": "the day"
+            },
+            {
+              "arabic": "مَعَاشًا",
+              "transliteration": "maʿāshā",
+              "translation": "for livelihood"
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "arabic": "وَبَنَيۡنَا فَوۡقَكُمۡ سَبۡعًا شِدَادًا",
+          "transliteration": "Wa-banaynā fawqakum sabʿan shidādā",
+          "translation": "And built above you seven strong heavens",
+          "words": [
+            {
+              "arabic": "وَبَنَيۡنَا",
+              "transliteration": "wa-banaynā",
+              "translation": "and built"
+            },
+            {
+              "arabic": "فَوۡقَكُمۡ",
+              "transliteration": "fawqakum",
+              "translation": "above you"
+            },
+            {
+              "arabic": "سَبۡعًا",
+              "transliteration": "sabʿan",
+              "translation": "seven"
+            },
+            {
+              "arabic": "شِدَادًا",
+              "transliteration": "shidādā",
+              "translation": "strong heavens"
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "arabic": "وَجَعَلۡنَا سِرَاجًا وَهَّاجًا",
+          "transliteration": "Wa-jaʿalnā sirājan wahhājā",
+          "translation": "And made a blazing lamp",
+          "words": [
+            {
+              "arabic": "وَجَعَلۡنَا",
+              "transliteration": "wa-jaʿalnā",
+              "translation": "and made"
+            },
+            {
+              "arabic": "سِرَاجًا",
+              "transliteration": "sirājan",
+              "translation": "a lamp"
+            },
+            {
+              "arabic": "وَهَّاجًا",
+              "transliteration": "wahhājā",
+              "translation": "blazing"
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "arabic": "وَأَنزَلۡنَا مِنَ ٱلۡمُعۡصِرَٰتِ مَآءً ثَجَّاجًا",
+          "transliteration": "Wa-anzalnā minal-muʿṣirāti māʾan thajjājā",
+          "translation": "And sent down from rain clouds pouring water",
+          "words": [
+            {
+              "arabic": "وَأَنزَلۡنَا",
+              "transliteration": "wa-anzalnā",
+              "translation": "and sent down"
+            },
+            {
+              "arabic": "مِنَ",
+              "transliteration": "mina",
+              "translation": "from"
+            },
+            {
+              "arabic": "ٱلۡمُعۡصِرَٰتِ",
+              "transliteration": "al-muʿṣirāti",
+              "translation": "rain clouds"
+            },
+            {
+              "arabic": "مَآءً",
+              "transliteration": "māʾan",
+              "translation": "water"
+            },
+            {
+              "arabic": "ثَجَّاجًا",
+              "transliteration": "thajjājā",
+              "translation": "pouring"
+            }
+          ]
+        },
+        {
+          "number": 15,
+          "arabic": "لِّنُخۡرِجَ بِهِۦ حَبًّا وَنَبَاتًا",
+          "transliteration": "Li-nukhrija bihi ḥabban wa-nabātā",
+          "translation": "That We may bring forth thereby grain and vegetation",
+          "words": [
+            {
+              "arabic": "لِّنُخۡرِجَ",
+              "transliteration": "li-nukhrija",
+              "translation": "to bring forth"
+            },
+            {
+              "arabic": "بِهِۦ",
+              "transliteration": "bihi",
+              "translation": "thereby"
+            },
+            {
+              "arabic": "حَبًّا",
+              "transliteration": "ḥabban",
+              "translation": "grain"
+            },
+            {
+              "arabic": "وَنَبَاتًا",
+              "transliteration": "wa-nabātā",
+              "translation": "and vegetation"
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "arabic": "وَجَنَّٰتٍ أَلۡفَافًا",
+          "transliteration": "Wa-jannātin alfāfā",
+          "translation": "And gardens of entwined growth",
+          "words": [
+            {
+              "arabic": "وَجَنَّٰتٍ",
+              "transliteration": "wa-jannātin",
+              "translation": "and gardens"
+            },
+            {
+              "arabic": "أَلۡفَافًا",
+              "transliteration": "alfāfā",
+              "translation": "of entwined growth"
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "arabic": "إِنَّ يَوۡمَ ٱلۡفَصۡلِ كَانَ مِيقَٰتًا",
+          "transliteration": "Inna yawmal-faṣli kāna mīqātā",
+          "translation": "Indeed the Day of Judgement is an appointed time",
+          "words": [
+            {
+              "arabic": "إِنَّ",
+              "transliteration": "inna",
+              "translation": "indeed"
+            },
+            {
+              "arabic": "يَوۡمَ",
+              "transliteration": "yawma",
+              "translation": "the Day of"
+            },
+            {
+              "arabic": "ٱلۡفَصۡلِ",
+              "transliteration": "al-faṣli",
+              "translation": "Judgement"
+            },
+            {
+              "arabic": "كَانَ",
+              "transliteration": "kāna",
+              "translation": "is"
+            },
+            {
+              "arabic": "مِيقَٰتًا",
+              "transliteration": "mīqātā",
+              "translation": "an appointed time"
+            }
+          ]
+        },
+        {
+          "number": 18,
+          "arabic": "يَوۡمَ يُنفَخُ فِي ٱلصُّورِ فَتَأۡتُونَ أَفۡوَاجًا",
+          "transliteration": "Yawma yunfakhu fiṣ-ṣūri fa-taʾtūna afwājā",
+          "translation": "The Day the Horn is blown and you will come forth in multitudes",
+          "words": [
+            {
+              "arabic": "يَوۡمَ",
+              "transliteration": "yawma",
+              "translation": "the Day"
+            },
+            {
+              "arabic": "يُنفَخُ",
+              "transliteration": "yunfakhu",
+              "translation": "is blown"
+            },
+            {
+              "arabic": "فِي",
+              "transliteration": "fī",
+              "translation": "in"
+            },
+            {
+              "arabic": "ٱلصُّورِ",
+              "transliteration": "aṣ-ṣūri",
+              "translation": "the Horn"
+            },
+            {
+              "arabic": "فَتَأۡتُونَ",
+              "transliteration": "fa-taʾtūna",
+              "translation": "and you will come forth"
+            },
+            {
+              "arabic": "أَفۡوَاجًا",
+              "transliteration": "afwājā",
+              "translation": "in multitudes"
+            }
+          ]
+        },
+        {
+          "number": 19,
+          "arabic": "وَفُتِحَتِ ٱلسَّمَآءُ فَكَانَتۡ أَبۡوَٰبًا",
+          "transliteration": "Wa-futiḥatis-samāʾu fa-kānat abwābā",
+          "translation": "And the heaven is opened and will become gateways",
+          "words": [
+            {
+              "arabic": "وَفُتِحَتِ",
+              "transliteration": "wa-futiḥati",
+              "translation": "and is opened"
+            },
+            {
+              "arabic": "ٱلسَّمَآءُ",
+              "transliteration": "as-samāʾu",
+              "translation": "the heaven"
+            },
+            {
+              "arabic": "فَكَانَتۡ",
+              "transliteration": "fa-kānat",
+              "translation": "and will become"
+            },
+            {
+              "arabic": "أَبۡوَٰبًا",
+              "transliteration": "abwābā",
+              "translation": "gateways"
+            }
+          ]
+        },
+        {
+          "number": 20,
+          "arabic": "وَسُيِّرَتِ ٱلۡجِبَالُ فَكَانَتۡ سَرَابًا",
+          "transliteration": "Wa-suyyiratil-jibālu fa-kānat sarābā",
+          "translation": "And the mountains are removed and will be a mirage",
+          "words": [
+            {
+              "arabic": "وَسُيِّرَتِ",
+              "transliteration": "wa-suyyirat",
+              "translation": "and are removed"
+            },
+            {
+              "arabic": "ٱلۡجِبَالُ",
+              "transliteration": "al-jibālu",
+              "translation": "the mountains"
+            },
+            {
+              "arabic": "فَكَانَتۡ",
+              "transliteration": "fa-kānat",
+              "translation": "and will be"
+            },
+            {
+              "arabic": "سَرَابًا",
+              "transliteration": "sarābā",
+              "translation": "a mirage"
+            }
+          ]
+        },
+        {
+          "number": 21,
+          "arabic": "إِنَّ جَهَنَّمَ كَانَتۡ مِرۡصَادًا",
+          "transliteration": "Inna jahannama kānat mirṣādā",
+          "translation": "Indeed Hellfire is a place of ambush",
+          "words": [
+            {
+              "arabic": "إِنَّ",
+              "transliteration": "inna",
+              "translation": "indeed"
+            },
+            {
+              "arabic": "جَهَنَّمَ",
+              "transliteration": "jahannama",
+              "translation": "Hellfire"
+            },
+            {
+              "arabic": "كَانَتۡ",
+              "transliteration": "kānat",
+              "translation": "is"
+            },
+            {
+              "arabic": "مِرۡصَادًا",
+              "transliteration": "mirṣādā",
+              "translation": "a place of ambush"
+            }
+          ]
+        },
+        {
+          "number": 22,
+          "arabic": "لِّلطَّٰغِينَ مَـَٔابًا",
+          "transliteration": "Liṭ-ṭāghīna maʾābā",
+          "translation": "For the transgressors a place of return",
+          "words": [
+            {
+              "arabic": "لِّلطَّٰغِينَ",
+              "transliteration": "liṭ-ṭāghīna",
+              "translation": "for the transgressors"
+            },
+            {
+              "arabic": "مَـَٔابًا",
+              "transliteration": "maʾābā",
+              "translation": "a place of return"
+            }
+          ]
+        },
+        {
+          "number": 23,
+          "arabic": "لَّٰبِثِينَ فِيهَآ أَحۡقَابًا",
+          "transliteration": "Lābithīna fīhā aḥqābā",
+          "translation": "In which they will remain for ages",
+          "words": [
+            {
+              "arabic": "لَّٰبِثِينَ",
+              "transliteration": "lābithīna",
+              "translation": "remaining"
+            },
+            {
+              "arabic": "فِيهَآ",
+              "transliteration": "fīhā",
+              "translation": "in which"
+            },
+            {
+              "arabic": "أَحۡقَابًا",
+              "transliteration": "aḥqābā",
+              "translation": "for ages"
+            }
+          ]
+        },
+        {
+          "number": 24,
+          "arabic": "لَّا يَذُوقُونَ فِيهَا بَرۡدًا وَلَا شَرَابًا",
+          "transliteration": "Lā yadhūqūna fīhā bardan wa-lā sharābā",
+          "translation": "They will not taste in it any coolness or drink",
+          "words": [
+            {
+              "arabic": "لَّا",
+              "transliteration": "lā",
+              "translation": "they will not"
+            },
+            {
+              "arabic": "يَذُوقُونَ",
+              "transliteration": "yadhūqūna",
+              "translation": "taste"
+            },
+            {
+              "arabic": "فِيهَا",
+              "transliteration": "fīhā",
+              "translation": "in it"
+            },
+            {
+              "arabic": "بَرۡدًا",
+              "transliteration": "bardan",
+              "translation": "any coolness"
+            },
+            {
+              "arabic": "وَلَا",
+              "transliteration": "wa-lā",
+              "translation": "or"
+            },
+            {
+              "arabic": "شَرَابًا",
+              "transliteration": "sharābā",
+              "translation": "drink"
+            }
+          ]
+        },
+        {
+          "number": 25,
+          "arabic": "إِلَّا حَمِيمًا وَغَسَّاقًا",
+          "transliteration": "Illā ḥamīman wa-ghassāqā",
+          "translation": "Except scalding water and purulent discharge",
+          "words": [
+            {
+              "arabic": "إِلَّا",
+              "transliteration": "illā",
+              "translation": "except"
+            },
+            {
+              "arabic": "حَمِيمًا",
+              "transliteration": "ḥamīman",
+              "translation": "scalding water"
+            },
+            {
+              "arabic": "وَغَسَّاقًا",
+              "transliteration": "wa-ghassāqā",
+              "translation": "and purulent discharge"
+            }
+          ]
+        },
+        {
+          "number": 26,
+          "arabic": "جَزَآءً وِفَاقًا",
+          "transliteration": "Jazāʾan wifāqā",
+          "translation": "An appropriate recompense",
+          "words": [
+            {
+              "arabic": "جَزَآءً",
+              "transliteration": "jazāʾan",
+              "translation": "a recompense"
+            },
+            {
+              "arabic": "وِفَاقًا",
+              "transliteration": "wifāqā",
+              "translation": "appropriate"
+            }
+          ]
+        },
+        {
+          "number": 27,
+          "arabic": "إِنَّهُمۡ كَانُواْ لَا يَرۡجُونَ حِسَابًا",
+          "transliteration": "Innahum kānū lā yarjūna ḥisābā",
+          "translation": "Indeed they were not expecting an account",
+          "words": [
+            {
+              "arabic": "إِنَّهُمۡ",
+              "transliteration": "innahum",
+              "translation": "indeed they"
+            },
+            {
+              "arabic": "كَانُواْ",
+              "transliteration": "kānū",
+              "translation": "were"
+            },
+            {
+              "arabic": "لَا",
+              "transliteration": "lā",
+              "translation": "not"
+            },
+            {
+              "arabic": "يَرۡجُونَ",
+              "transliteration": "yarjūna",
+              "translation": "expecting"
+            },
+            {
+              "arabic": "حِسَابًا",
+              "transliteration": "ḥisābā",
+              "translation": "an account"
+            }
+          ]
+        },
+        {
+          "number": 28,
+          "arabic": "وَكَذَّبُواْ بِـَٔايَٰتِنَا كِذَّابًا",
+          "transliteration": "Wa-kadhdhabū bi-āyātinā kidhdhābā",
+          "translation": "And they denied Our verses with strong denial",
+          "words": [
+            {
+              "arabic": "وَكَذَّبُواْ",
+              "transliteration": "wa-kadhdhabū",
+              "translation": "and they denied"
+            },
+            {
+              "arabic": "بِـَٔايَٰتِنَا",
+              "transliteration": "bi-āyātinā",
+              "translation": "Our verses"
+            },
+            {
+              "arabic": "كِذَّابًا",
+              "transliteration": "kidhdhābā",
+              "translation": "with strong denial"
+            }
+          ]
+        },
+        {
+          "number": 29,
+          "arabic": "وَكُلَّ شَيۡءٍ أَحۡصَيۡنَٰهُ كِتَٰبًا",
+          "transliteration": "Wa-kulla shayʾin aḥṣaynāhu kitābā",
+          "translation": "But all things We have enumerated in writing",
+          "words": [
+            {
+              "arabic": "وَكُلَّ",
+              "transliteration": "wa-kulla",
+              "translation": "and all"
+            },
+            {
+              "arabic": "شَيۡءٍ",
+              "transliteration": "shayʾin",
+              "translation": "things"
+            },
+            {
+              "arabic": "أَحۡصَيۡنَٰهُ",
+              "transliteration": "aḥṣaynāhu",
+              "translation": "We have enumerated"
+            },
+            {
+              "arabic": "كِتَٰبًا",
+              "transliteration": "kitābā",
+              "translation": "in writing"
+            }
+          ]
+        },
+        {
+          "number": 30,
+          "arabic": "فَذُوقُواْ فَلَن نَّزِيدَكُمۡ إِلَّا عَذَابًا",
+          "transliteration": "Fa-dhūqū fa-lan nazīdakum illā ʿadhābā",
+          "translation": "So taste, for We will add to you nothing but punishment",
+          "words": [
+            {
+              "arabic": "فَذُوقُواْ",
+              "transliteration": "fa-dhūqū",
+              "translation": "so taste"
+            },
+            {
+              "arabic": "فَلَن",
+              "transliteration": "fa-lan",
+              "translation": "for We will"
+            },
+            {
+              "arabic": "نَّزِيدَكُمۡ",
+              "transliteration": "nazīdakum",
+              "translation": "add to you"
+            },
+            {
+              "arabic": "إِلَّا",
+              "transliteration": "illā",
+              "translation": "nothing but"
+            },
+            {
+              "arabic": "عَذَابًا",
+              "transliteration": "ʿadhābā",
+              "translation": "punishment"
+            }
+          ]
+        },
+        {
+          "number": 31,
+          "arabic": "إِنَّ لِلۡمُتَّقِينَ مَفَازًا",
+          "transliteration": "Inna lil-muttaqīna mafāzā",
+          "translation": "Indeed for the righteous is attainment",
+          "words": [
+            {
+              "arabic": "إِنَّ",
+              "transliteration": "inna",
+              "translation": "indeed"
+            },
+            {
+              "arabic": "لِلۡمُتَّقِينَ",
+              "transliteration": "lil-muttaqīna",
+              "translation": "for the righteous"
+            },
+            {
+              "arabic": "مَفَازًا",
+              "transliteration": "mafāzā",
+              "translation": "attainment"
+            }
+          ]
+        },
+        {
+          "number": 32,
+          "arabic": "حَدَآئِقَ وَأَعۡنَٰبًا",
+          "transliteration": "Ḥadāʾiqa wa-aʿnābā",
+          "translation": "Gardens and grapevines",
+          "words": [
+            {
+              "arabic": "حَدَآئِقَ",
+              "transliteration": "ḥadāʾiqa",
+              "translation": "gardens"
+            },
+            {
+              "arabic": "وَأَعۡنَٰبًا",
+              "transliteration": "wa-aʿnābā",
+              "translation": "and grapevines"
+            }
+          ]
+        },
+        {
+          "number": 33,
+          "arabic": "وَكَوَاعِبَ أَتۡرَابًا",
+          "transliteration": "Wa-kawāʿiba atrābā",
+          "translation": "And full-breasted companions of equal age",
+          "words": [
+            {
+              "arabic": "وَكَوَاعِبَ",
+              "transliteration": "wa-kawāʿiba",
+              "translation": "and companions"
+            },
+            {
+              "arabic": "أَتۡرَابًا",
+              "transliteration": "atrābā",
+              "translation": "of equal age"
+            }
+          ]
+        },
+        {
+          "number": 34,
+          "arabic": "وَكَأۡسًا دِهَاقًا",
+          "transliteration": "Wa-kaʾsan dihāqā",
+          "translation": "And a full cup",
+          "words": [
+            {
+              "arabic": "وَكَأۡسًا",
+              "transliteration": "wa-kaʾsan",
+              "translation": "and a cup"
+            },
+            {
+              "arabic": "دِهَاقًا",
+              "transliteration": "dihāqā",
+              "translation": "full"
+            }
+          ]
+        },
+        {
+          "number": 35,
+          "arabic": "لَّا يَسۡمَعُونَ فِيهَا لَغۡوًا وَلَا كِذَّٰبًا",
+          "transliteration": "Lā yasmaʿūna fīhā laghwan wa-lā kidhdhābā",
+          "translation": "No ill speech will they hear therein, nor any falsehood",
+          "words": [
+            {
+              "arabic": "لَّا",
+              "transliteration": "lā",
+              "translation": "no"
+            },
+            {
+              "arabic": "يَسۡمَعُونَ",
+              "transliteration": "yasmaʿūna",
+              "translation": "will they hear"
+            },
+            {
+              "arabic": "فِيهَا",
+              "transliteration": "fīhā",
+              "translation": "therein"
+            },
+            {
+              "arabic": "لَغۡوًا",
+              "transliteration": "laghwan",
+              "translation": "ill speech"
+            },
+            {
+              "arabic": "وَلَا",
+              "transliteration": "wa-lā",
+              "translation": "nor any"
+            },
+            {
+              "arabic": "كِذَّٰبًا",
+              "transliteration": "kidhdhābā",
+              "translation": "falsehood"
+            }
+          ]
+        },
+        {
+          "number": 36,
+          "arabic": "جَزَآءً مِّن رَّبِّكَ عَطَآءً حِسَابًا",
+          "transliteration": "Jazāʾan min rabbika ʿaṭāʾan ḥisābā",
+          "translation": "As a reward from your Lord — a sufficient gift",
+          "words": [
+            {
+              "arabic": "جَزَآءً",
+              "transliteration": "jazāʾan",
+              "translation": "as a reward"
+            },
+            {
+              "arabic": "مِّن",
+              "transliteration": "min",
+              "translation": "from"
+            },
+            {
+              "arabic": "رَّبِّكَ",
+              "transliteration": "rabbika",
+              "translation": "your Lord"
+            },
+            {
+              "arabic": "عَطَآءً",
+              "transliteration": "ʿaṭāʾan",
+              "translation": "a gift"
+            },
+            {
+              "arabic": "حِسَابًا",
+              "transliteration": "ḥisābā",
+              "translation": "sufficient"
+            }
+          ]
+        },
+        {
+          "number": 37,
+          "arabic": "رَّبِّ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ وَمَا بَيۡنَهُمَا ٱلرَّحۡمَٰنِ لَا يَمۡلِكُونَ مِنۡهُ خِطَابًا",
+          "transliteration": "Rabbis-samāwāti wal-arḍi wa-mā baynahumar-raḥmāni lā yamlikūna minhu khiṭābā",
+          "translation": "Lord of the heavens and the earth and what is between them, the Most Merciful — they possess no power of speech from Him",
+          "words": [
+            {
+              "arabic": "رَّبِّ",
+              "transliteration": "rabbi",
+              "translation": "Lord of"
+            },
+            {
+              "arabic": "ٱلسَّمَٰوَٰتِ",
+              "transliteration": "as-samāwāti",
+              "translation": "the heavens"
+            },
+            {
+              "arabic": "وَٱلۡأَرۡضِ",
+              "transliteration": "wal-arḍi",
+              "translation": "and the earth"
+            },
+            {
+              "arabic": "ٱلرَّحۡمَٰنِ",
+              "transliteration": "ar-raḥmāni",
+              "translation": "the Most Merciful"
+            }
+          ]
+        },
+        {
+          "number": 38,
+          "arabic": "يَوۡمَ يَقُومُ ٱلرُّوحُ وَٱلۡمَلَٰٓئِكَةُ صَفًّا لَّا يَتَكَلَّمُونَ إِلَّا مَنۡ أَذِنَ لَهُ ٱلرَّحۡمَٰنُ وَقَالَ صَوَابًا",
+          "transliteration": "Yawma yaqūmur-rūḥu wal-malāʾikatu ṣaffan lā yatakallamūna illā man adhina lahur-raḥmānu wa-qāla ṣawābā",
+          "translation": "The Day the Spirit and the angels will stand in rows, they will not speak except for one whom the Most Merciful permits, and he will say what is correct",
+          "words": [
+            {
+              "arabic": "يَوۡمَ",
+              "transliteration": "yawma",
+              "translation": "the Day"
+            },
+            {
+              "arabic": "يَقُومُ",
+              "transliteration": "yaqūmu",
+              "translation": "will stand"
+            },
+            {
+              "arabic": "ٱلرُّوحُ",
+              "transliteration": "ar-rūḥu",
+              "translation": "the Spirit"
+            },
+            {
+              "arabic": "وَٱلۡمَلَٰٓئِكَةُ",
+              "transliteration": "wal-malāʾikatu",
+              "translation": "and the angels"
+            },
+            {
+              "arabic": "صَفًّا",
+              "transliteration": "ṣaffan",
+              "translation": "in rows"
+            }
+          ]
+        },
+        {
+          "number": 39,
+          "arabic": "ذَٰلِكَ ٱلۡيَوۡمُ ٱلۡحَقُّ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا",
+          "transliteration": "Dhālikal-yawmul-ḥaqqu fa-man shāʾattakhadha ilā rabbihī maʾābā",
+          "translation": "That is the Day of Truth; so whoever wills may take a return to his Lord",
+          "words": [
+            {
+              "arabic": "ذَٰلِكَ",
+              "transliteration": "dhālika",
+              "translation": "that is"
+            },
+            {
+              "arabic": "ٱلۡيَوۡمُ",
+              "transliteration": "al-yawmu",
+              "translation": "the Day"
+            },
+            {
+              "arabic": "ٱلۡحَقُّ",
+              "transliteration": "al-ḥaqqu",
+              "translation": "of Truth"
+            },
+            {
+              "arabic": "فَمَن",
+              "transliteration": "fa-man",
+              "translation": "so whoever"
+            },
+            {
+              "arabic": "شَآءَ",
+              "transliteration": "shāʾa",
+              "translation": "wills"
+            },
+            {
+              "arabic": "ٱتَّخَذَ",
+              "transliteration": "attakhadha",
+              "translation": "may take"
+            },
+            {
+              "arabic": "إِلَىٰ",
+              "transliteration": "ilā",
+              "translation": "to"
+            },
+            {
+              "arabic": "رَبِّهِۦ",
+              "transliteration": "rabbihī",
+              "translation": "his Lord"
+            },
+            {
+              "arabic": "مَـَٔابًا",
+              "transliteration": "maʾābā",
+              "translation": "a return"
+            }
+          ]
+        },
+        {
+          "number": 40,
+          "arabic": "إِنَّآ أَنذَرۡنَٰكُمۡ عَذَابًا قَرِيبًا يَوۡمَ يَنظُرُ ٱلۡمَرۡءُ مَا قَدَّمَتۡ يَدَاهُ وَيَقُولُ ٱلۡكَافِرُ يَٰلَيۡتَنِي كُنتُ تُرَٰبًا",
+          "transliteration": "Innā andharnākum ʿadhāban qarīban yawma yanẓurul-marʾu mā qaddamat yadāhu wa-yaqūlul-kāfiru yā laytanī kuntu turābā",
+          "translation": "Indeed We have warned you of a near punishment — the Day when a man will observe what his hands have put forth, and the disbeliever will say: 'Oh, I wish I were dust!'",
+          "words": [
+            {
+              "arabic": "إِنَّآ",
+              "transliteration": "innā",
+              "translation": "indeed We"
+            },
+            {
+              "arabic": "أَنذَرۡنَٰكُمۡ",
+              "transliteration": "andharnākum",
+              "translation": "have warned you"
+            },
+            {
+              "arabic": "عَذَابًا",
+              "transliteration": "ʿadhāban",
+              "translation": "of a punishment"
+            },
+            {
+              "arabic": "قَرِيبًا",
+              "transliteration": "qarīban",
+              "translation": "near"
+            },
+            {
+              "arabic": "يَوۡمَ",
+              "transliteration": "yawma",
+              "translation": "the Day"
+            },
+            {
+              "arabic": "يَنظُرُ",
+              "transliteration": "yanẓuru",
+              "translation": "will observe"
+            },
+            {
+              "arabic": "ٱلۡمَرۡءُ",
+              "transliteration": "al-marʾu",
+              "translation": "a man"
+            },
+            {
+              "arabic": "مَا",
+              "transliteration": "mā",
+              "translation": "what"
+            },
+            {
+              "arabic": "قَدَّمَتۡ",
+              "transliteration": "qaddamat",
+              "translation": "has put forth"
+            },
+            {
+              "arabic": "يَدَاهُ",
+              "transliteration": "yadāhu",
+              "translation": "his hands"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "number": 81,
       "name": "At-Takwir",
       "arabicName": "التكوير",
