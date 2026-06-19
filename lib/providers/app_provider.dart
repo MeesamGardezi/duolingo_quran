@@ -197,6 +197,19 @@ class AppProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  // ── Streak freeze ──────────────────────────────────────────────────────────
+
+  int get streakFreezes => _progress.streakFreezes;
+
+  Future<bool> buyStreakFreeze() async {
+    final ok = _progress.buyStreakFreeze();
+    if (ok) {
+      await ProgressService.instance.save(_progress);
+      notifyListeners();
+    }
+    return ok;
+  }
+
   // ── Hearts ─────────────────────────────────────────────────────────────────
 
   int get hearts => _progress.currentHearts;

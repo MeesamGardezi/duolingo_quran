@@ -111,6 +111,24 @@ class ProfileScreen extends StatelessWidget {
 
           // Weekly streak calendar
           _WeeklyStreakCalendar(lastStudyDate: p.lastStudyDate, streak: p.streak),
+          const SizedBox(height: 16),
+
+          // Streak freeze card
+          _StreakFreezeCard(
+            freezes: provider.streakFreezes,
+            totalXP: p.totalXP,
+            onBuy: () async {
+              final ok = await provider.buyStreakFreeze();
+              if (!ok && context.mounted) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(
+                    content: Text('Not enough XP or freeze slots full'),
+                    duration: Duration(seconds: 2),
+                  ),
+                );
+              }
+            },
+          ),
           const SizedBox(height: 20),
 
           // Leaderboard button
@@ -581,6 +599,103 @@ class _WeeklyStreakCalendar extends StatelessWidget {
               );
             }).toList(),
           ),
+        ],
+      ),
+    );
+  }
+}
+
+class _StreakFreezeCard extends StatelessWidget {
+  final int freezes;
+  final int totalXP;
+  final VoidCallback onBuy;
+
+  const _StreakFreezeCard({
+    required this.freezes,
+    required this.totalXP,
+    required this.onBuy,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final canBuy = freezes < 2 && totalXP >= 200;
+    return Container(
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: const Color(0xFFE8F4FD),
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: const Color(0xFF1565C0).withOpacity(0.25)),
+      ),
+      child: Row(
+        children: [
+          const Text('🛡️', style: TextStyle(fontSize: 28)),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'Streak Freeze: $freezes / 2',
+                  style: const TextStyle(
+                    fontWeight: FontWeight.w800,
+                    fontSize: 15,
+                    color: Color(0xFF1565C0),
+                  ),
+                ),
+                Text(
+                  freezes == 0
+                      ? 'Protects your streak if you miss a day'
+                      : freezes == 1
+                          ? 'You have 1 freeze — get another!'
+                          : 'Full! Auto-applied if you miss a day',
+                  style: const TextStyle(
+                    fontSize: 12,
+                    color: AppColors.textSecondary,
+                  ),
+                ),
+                const SizedBox(height: 4),
+                const Text(
+                  'Earn one every 7-day streak or buy with 200 XP',
+                  style: TextStyle(fontSize: 11, color: AppColors.textLight),
+                ),
+              ],
+            ),
+          ),
+          if (freezes < 2) ...[
+            const SizedBox(width: 8),
+            GestureDetector(
+              onTap: canBuy ? onBuy : null,
+              child: Container(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                decoration: BoxDecoration(
+                  color: canBuy
+                      ? const Color(0xFF1565C0)
+                      : AppColors.textLight,
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Column(
+                  children: [
+                    const Text(
+                      'Buy',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.w800,
+                        fontSize: 12,
+                      ),
+                    ),
+                    const Text(
+                      '200 XP',
+                      style: TextStyle(
+                        color: Colors.white70,
+                        fontSize: 10,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
         ],
       ),
     );

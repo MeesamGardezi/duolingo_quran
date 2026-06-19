@@ -2,6 +2,7 @@ class SurahTips {
   static const Map<int, String> _tips = {
     1: 'Al-Fatiha is recited in every unit of prayer (raka\'ah). A Muslim recites it at least 17 times daily.',
     73: 'Al-Muzzammil commanded the Prophet (ﷺ) to pray at night, describing night prayer as the most powerful time for the heart and speech.',
+    74: 'Al-Muddaththir contains some of the very earliest Quranic verses. It describes Saqar — one of the levels of Hellfire — guarded by 19 angels.',
     78: 'An-Naba (The Great News) opens with a question the people of Mecca were disputing: the news of the Day of Resurrection.',
     79: 'An-Nazi\'at opens with oaths by the angels who extract souls, leading into the story of Moses and Pharaoh as a warning.',
     80: 'Abasa (He Frowned) was revealed when the Prophet (ﷺ) turned from a blind man to address a wealthy leader — a gentle divine correction.',

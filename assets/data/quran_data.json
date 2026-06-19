@@ -15971,6 +15971,1254 @@
           ]
         }
       ]
+    },
+    {
+      "number": 74,
+      "name": "Al-Muddaththir",
+      "arabicName": "الْمُدَّثِّرُ",
+      "meaning": "The Covered One",
+      "verses": [
+        {
+          "number": 1,
+          "arabic": "يَا أَيُّهَا الْمُدَّثِّرُ",
+          "translation": "O you who covers himself [with a garment],",
+          "words": [
+            {
+              "arabic": "يَا",
+              "translation": "O"
+            },
+            {
+              "arabic": "أَيُّهَا",
+              "translation": "you"
+            },
+            {
+              "arabic": "الْمُدَّثِّرُ",
+              "translation": "the covered one"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "arabic": "قُمْ فَأَنذِرْ",
+          "translation": "Arise and warn",
+          "words": [
+            {
+              "arabic": "قُمْ",
+              "translation": "Arise"
+            },
+            {
+              "arabic": "فَأَنذِرْ",
+              "translation": "and warn"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "arabic": "وَرَبَّكَ فَكَبِّرْ",
+          "translation": "And your Lord glorify",
+          "words": [
+            {
+              "arabic": "وَرَبَّكَ",
+              "translation": "And your Lord"
+            },
+            {
+              "arabic": "فَكَبِّرْ",
+              "translation": "glorify"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "arabic": "وَثِيَابَكَ فَطَهِّرْ",
+          "translation": "And your clothing purify",
+          "words": [
+            {
+              "arabic": "وَثِيَابَكَ",
+              "translation": "And your clothing"
+            },
+            {
+              "arabic": "فَطَهِّرْ",
+              "translation": "purify"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "arabic": "وَالرُّجْزَ فَاهْجُرْ",
+          "translation": "And uncleanliness avoid",
+          "words": [
+            {
+              "arabic": "وَالرُّجْزَ",
+              "translation": "And uncleanliness"
+            },
+            {
+              "arabic": "فَاهْجُرْ",
+              "translation": "avoid"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "arabic": "وَلَا تَمْنُن تَسْتَكْثِرُ",
+          "translation": "And do not confer favor to acquire more",
+          "words": [
+            {
+              "arabic": "وَلَا",
+              "translation": "And do not"
+            },
+            {
+              "arabic": "تَمْنُن",
+              "translation": "confer favor"
+            },
+            {
+              "arabic": "تَسْتَكْثِرُ",
+              "translation": "to acquire more"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "arabic": "وَلِرَبِّكَ فَاصْبِرْ",
+          "translation": "And be patient for the sake of your Lord.",
+          "words": [
+            {
+              "arabic": "وَلِرَبِّكَ",
+              "translation": "And for your Lord"
+            },
+            {
+              "arabic": "فَاصْبِرْ",
+              "translation": "be patient"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "arabic": "فَإِذَا نُقِرَ فِي النَّاقُورِ",
+          "translation": "And when the Horn is blown,",
+          "words": [
+            {
+              "arabic": "فَإِذَا",
+              "translation": "And when"
+            },
+            {
+              "arabic": "نُقِرَ",
+              "translation": "is blown"
+            },
+            {
+              "arabic": "فِي",
+              "translation": "in"
+            },
+            {
+              "arabic": "النَّاقُورِ",
+              "translation": "the Horn"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "arabic": "فَذَٰلِكَ يَوْمَئِذٍ يَوْمٌ عَسِيرٌ",
+          "translation": "That Day will be a difficult day",
+          "words": [
+            {
+              "arabic": "فَذَٰلِكَ",
+              "translation": "That"
+            },
+            {
+              "arabic": "يَوْمَئِذٍ",
+              "translation": "Day"
+            },
+            {
+              "arabic": "يَوْمٌ",
+              "translation": "will be a day"
+            },
+            {
+              "arabic": "عَسِيرٌ",
+              "translation": "difficult"
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "arabic": "عَلَى الْكَافِرِينَ غَيْرُ يَسِيرٍ",
+          "translation": "For the disbelievers — not easy.",
+          "words": [
+            {
+              "arabic": "عَلَى",
+              "translation": "For"
+            },
+            {
+              "arabic": "الْكَافِرِينَ",
+              "translation": "the disbelievers"
+            },
+            {
+              "arabic": "غَيْرُ",
+              "translation": "not"
+            },
+            {
+              "arabic": "يَسِيرٍ",
+              "translation": "easy"
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "arabic": "ذَرْنِي وَمَنْ خَلَقْتُ وَحِيدًا",
+          "translation": "Leave Me with the one I created alone",
+          "words": [
+            {
+              "arabic": "ذَرْنِي",
+              "translation": "Leave Me"
+            },
+            {
+              "arabic": "وَمَنْ",
+              "translation": "with the one"
+            },
+            {
+              "arabic": "خَلَقْتُ",
+              "translation": "I created"
+            },
+            {
+              "arabic": "وَحِيدًا",
+              "translation": "alone"
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "arabic": "وَجَعَلْتُ لَهُ مَالًا مَّمْدُودًا",
+          "translation": "And to whom I granted extensive wealth",
+          "words": [
+            {
+              "arabic": "وَجَعَلْتُ",
+              "translation": "And I granted"
+            },
+            {
+              "arabic": "لَهُ",
+              "translation": "to him"
+            },
+            {
+              "arabic": "مَالًا",
+              "translation": "wealth"
+            },
+            {
+              "arabic": "مَّمْدُودًا",
+              "translation": "extensive"
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "arabic": "وَبَنِينَ شُهُودًا",
+          "translation": "And children present [with him]",
+          "words": [
+            {
+              "arabic": "وَبَنِينَ",
+              "translation": "And children"
+            },
+            {
+              "arabic": "شُهُودًا",
+              "translation": "present"
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "arabic": "وَمَهَّدتُّ لَهُ تَمْهِيدًا",
+          "translation": "And I eased [his life] with comforts.",
+          "words": [
+            {
+              "arabic": "وَمَهَّدتُّ",
+              "translation": "And I eased"
+            },
+            {
+              "arabic": "لَهُ",
+              "translation": "for him"
+            },
+            {
+              "arabic": "تَمْهِيدًا",
+              "translation": "with comforts"
+            }
+          ]
+        },
+        {
+          "number": 15,
+          "arabic": "ثُمَّ يَطْمَعُ أَن أَزِيدَ",
+          "translation": "Then he desires that I should add more.",
+          "words": [
+            {
+              "arabic": "ثُمَّ",
+              "translation": "Then"
+            },
+            {
+              "arabic": "يَطْمَعُ",
+              "translation": "he desires"
+            },
+            {
+              "arabic": "أَن",
+              "translation": "that"
+            },
+            {
+              "arabic": "أَزِيدَ",
+              "translation": "I should add more"
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "arabic": "كَلَّا ۖ إِنَّهُ كَانَ لِآيَاتِنَا عَنِيدًا",
+          "translation": "No! Indeed, he has been toward Our verses obstinate.",
+          "words": [
+            {
+              "arabic": "كَلَّا",
+              "translation": "No"
+            },
+            {
+              "arabic": "إِنَّهُ",
+              "translation": "Indeed he"
+            },
+            {
+              "arabic": "كَانَ",
+              "translation": "has been"
+            },
+            {
+              "arabic": "لِآيَاتِنَا",
+              "translation": "toward Our verses"
+            },
+            {
+              "arabic": "عَنِيدًا",
+              "translation": "obstinate"
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "arabic": "سَأُرْهِقُهُ صَعُودًا",
+          "translation": "I will cover him with arduous torment.",
+          "words": [
+            {
+              "arabic": "سَأُرْهِقُهُ",
+              "translation": "I will cover him with"
+            },
+            {
+              "arabic": "صَعُودًا",
+              "translation": "arduous torment"
+            }
+          ]
+        },
+        {
+          "number": 18,
+          "arabic": "إِنَّهُ فَكَّرَ وَقَدَّرَ",
+          "translation": "Indeed, he thought and deliberated.",
+          "words": [
+            {
+              "arabic": "إِنَّهُ",
+              "translation": "Indeed he"
+            },
+            {
+              "arabic": "فَكَّرَ",
+              "translation": "thought"
+            },
+            {
+              "arabic": "وَقَدَّرَ",
+              "translation": "and deliberated"
+            }
+          ]
+        },
+        {
+          "number": 19,
+          "arabic": "فَقُتِلَ كَيْفَ قَدَّرَ",
+          "translation": "So may he be destroyed [for] how he deliberated.",
+          "words": [
+            {
+              "arabic": "فَقُتِلَ",
+              "translation": "So may he be destroyed"
+            },
+            {
+              "arabic": "كَيْفَ",
+              "translation": "how"
+            },
+            {
+              "arabic": "قَدَّرَ",
+              "translation": "he deliberated"
+            }
+          ]
+        },
+        {
+          "number": 20,
+          "arabic": "ثُمَّ قُتِلَ كَيْفَ قَدَّرَ",
+          "translation": "Then may he be destroyed [for] how he deliberated.",
+          "words": [
+            {
+              "arabic": "ثُمَّ",
+              "translation": "Then"
+            },
+            {
+              "arabic": "قُتِلَ",
+              "translation": "may he be destroyed"
+            },
+            {
+              "arabic": "كَيْفَ",
+              "translation": "how"
+            },
+            {
+              "arabic": "قَدَّرَ",
+              "translation": "he deliberated"
+            }
+          ]
+        },
+        {
+          "number": 21,
+          "arabic": "ثُمَّ نَظَرَ",
+          "translation": "Then he looked [at the Quran].",
+          "words": [
+            {
+              "arabic": "ثُمَّ",
+              "translation": "Then"
+            },
+            {
+              "arabic": "نَظَرَ",
+              "translation": "he looked"
+            }
+          ]
+        },
+        {
+          "number": 22,
+          "arabic": "ثُمَّ عَبَسَ وَبَسَرَ",
+          "translation": "Then he frowned and scowled.",
+          "words": [
+            {
+              "arabic": "ثُمَّ",
+              "translation": "Then"
+            },
+            {
+              "arabic": "عَبَسَ",
+              "translation": "he frowned"
+            },
+            {
+              "arabic": "وَبَسَرَ",
+              "translation": "and scowled"
+            }
+          ]
+        },
+        {
+          "number": 23,
+          "arabic": "ثُمَّ أَدْبَرَ وَاسْتَكْبَرَ",
+          "translation": "Then he turned back and was arrogant",
+          "words": [
+            {
+              "arabic": "ثُمَّ",
+              "translation": "Then"
+            },
+            {
+              "arabic": "أَدْبَرَ",
+              "translation": "he turned back"
+            },
+            {
+              "arabic": "وَاسْتَكْبَرَ",
+              "translation": "and was arrogant"
+            }
+          ]
+        },
+        {
+          "number": 24,
+          "arabic": "فَقَالَ إِنْ هَٰذَا إِلَّا سِحْرٌ يُؤْثَرُ",
+          "translation": "And said, 'This is not but magic imitated [from others].'",
+          "words": [
+            {
+              "arabic": "فَقَالَ",
+              "translation": "And said"
+            },
+            {
+              "arabic": "إِنْ",
+              "translation": "this is not"
+            },
+            {
+              "arabic": "هَٰذَا",
+              "translation": "this"
+            },
+            {
+              "arabic": "إِلَّا",
+              "translation": "but"
+            },
+            {
+              "arabic": "سِحْرٌ",
+              "translation": "magic"
+            },
+            {
+              "arabic": "يُؤْثَرُ",
+              "translation": "imitated"
+            }
+          ]
+        },
+        {
+          "number": 25,
+          "arabic": "إِنْ هَٰذَا إِلَّا قَوْلُ الْبَشَرِ",
+          "translation": "'This is not but the word of a human being.'",
+          "words": [
+            {
+              "arabic": "إِنْ",
+              "translation": "This is not"
+            },
+            {
+              "arabic": "هَٰذَا",
+              "translation": "this"
+            },
+            {
+              "arabic": "إِلَّا",
+              "translation": "but"
+            },
+            {
+              "arabic": "قَوْلُ",
+              "translation": "the word of"
+            },
+            {
+              "arabic": "الْبَشَرِ",
+              "translation": "a human being"
+            }
+          ]
+        },
+        {
+          "number": 26,
+          "arabic": "سَأُصْلِيهِ سَقَرَ",
+          "translation": "I will drive him into Saqar.",
+          "words": [
+            {
+              "arabic": "سَأُصْلِيهِ",
+              "translation": "I will drive him into"
+            },
+            {
+              "arabic": "سَقَرَ",
+              "translation": "Saqar"
+            }
+          ]
+        },
+        {
+          "number": 27,
+          "arabic": "وَمَا أَدْرَاكَ مَا سَقَرُ",
+          "translation": "And what can make you know what is Saqar?",
+          "words": [
+            {
+              "arabic": "وَمَا",
+              "translation": "And what"
+            },
+            {
+              "arabic": "أَدْرَاكَ",
+              "translation": "can make you know"
+            },
+            {
+              "arabic": "مَا",
+              "translation": "what is"
+            },
+            {
+              "arabic": "سَقَرُ",
+              "translation": "Saqar"
+            }
+          ]
+        },
+        {
+          "number": 28,
+          "arabic": "لَا تُبْقِي وَلَا تَذَرُ",
+          "translation": "It lets nothing remain and leaves nothing [unburned],",
+          "words": [
+            {
+              "arabic": "لَا",
+              "translation": "It lets nothing"
+            },
+            {
+              "arabic": "تُبْقِي",
+              "translation": "remain"
+            },
+            {
+              "arabic": "وَلَا",
+              "translation": "and leaves nothing"
+            },
+            {
+              "arabic": "تَذَرُ",
+              "translation": "unburned"
+            }
+          ]
+        },
+        {
+          "number": 29,
+          "arabic": "لَوَّاحَةٌ لِّلْبَشَرِ",
+          "translation": "Scorching the flesh.",
+          "words": [
+            {
+              "arabic": "لَوَّاحَةٌ",
+              "translation": "Scorching"
+            },
+            {
+              "arabic": "لِّلْبَشَرِ",
+              "translation": "the flesh"
+            }
+          ]
+        },
+        {
+          "number": 30,
+          "arabic": "عَلَيْهَا تِسْعَةَ عَشَرَ",
+          "translation": "Over it are nineteen [angels].",
+          "words": [
+            {
+              "arabic": "عَلَيْهَا",
+              "translation": "Over it are"
+            },
+            {
+              "arabic": "تِسْعَةَ",
+              "translation": "nineteen"
+            },
+            {
+              "arabic": "عَشَرَ",
+              "translation": ""
+            }
+          ]
+        },
+        {
+          "number": 31,
+          "arabic": "وَمَا جَعَلْنَا أَصْحَابَ النَّارِ إِلَّا مَلَائِكَةً وَمَا جَعَلْنَا عِدَّتَهُمْ إِلَّا فِتْنَةً لِّلَّذِينَ كَفَرُوا",
+          "translation": "And We have not made the keepers of the Fire except angels. And We have not made their number except as a trial for those who disbelieve.",
+          "words": [
+            {
+              "arabic": "وَمَا",
+              "translation": "And not"
+            },
+            {
+              "arabic": "جَعَلْنَا",
+              "translation": "have We made"
+            },
+            {
+              "arabic": "أَصْحَابَ",
+              "translation": "the keepers of"
+            },
+            {
+              "arabic": "النَّارِ",
+              "translation": "the Fire"
+            },
+            {
+              "arabic": "إِلَّا",
+              "translation": "except"
+            },
+            {
+              "arabic": "مَلَائِكَةً",
+              "translation": "angels"
+            },
+            {
+              "arabic": "وَمَا",
+              "translation": "and not"
+            },
+            {
+              "arabic": "جَعَلْنَا",
+              "translation": "We have made"
+            },
+            {
+              "arabic": "عِدَّتَهُمْ",
+              "translation": "their number"
+            },
+            {
+              "arabic": "إِلَّا",
+              "translation": "except"
+            },
+            {
+              "arabic": "فِتْنَةً",
+              "translation": "as a trial"
+            },
+            {
+              "arabic": "لِّلَّذِينَ",
+              "translation": "for those who"
+            },
+            {
+              "arabic": "كَفَرُوا",
+              "translation": "disbelieve"
+            }
+          ]
+        },
+        {
+          "number": 32,
+          "arabic": "كَلَّا وَالْقَمَرِ",
+          "translation": "No! By the moon",
+          "words": [
+            {
+              "arabic": "كَلَّا",
+              "translation": "No"
+            },
+            {
+              "arabic": "وَالْقَمَرِ",
+              "translation": "by the moon"
+            }
+          ]
+        },
+        {
+          "number": 33,
+          "arabic": "وَاللَّيْلِ إِذْ أَدْبَرَ",
+          "translation": "And [by] the night when it departs",
+          "words": [
+            {
+              "arabic": "وَاللَّيْلِ",
+              "translation": "And by the night"
+            },
+            {
+              "arabic": "إِذْ",
+              "translation": "when"
+            },
+            {
+              "arabic": "أَدْبَرَ",
+              "translation": "it departs"
+            }
+          ]
+        },
+        {
+          "number": 34,
+          "arabic": "وَالصُّبْحِ إِذَا أَسْفَرَ",
+          "translation": "And [by] the morning when it brightens,",
+          "words": [
+            {
+              "arabic": "وَالصُّبْحِ",
+              "translation": "And by the morning"
+            },
+            {
+              "arabic": "إِذَا",
+              "translation": "when"
+            },
+            {
+              "arabic": "أَسْفَرَ",
+              "translation": "it brightens"
+            }
+          ]
+        },
+        {
+          "number": 35,
+          "arabic": "إِنَّهَا لَإِحْدَى الْكُبَرِ",
+          "translation": "Indeed, Saqar is one of the greatest afflictions",
+          "words": [
+            {
+              "arabic": "إِنَّهَا",
+              "translation": "Indeed it"
+            },
+            {
+              "arabic": "لَإِحْدَى",
+              "translation": "is one of"
+            },
+            {
+              "arabic": "الْكُبَرِ",
+              "translation": "the greatest afflictions"
+            }
+          ]
+        },
+        {
+          "number": 36,
+          "arabic": "نَذِيرًا لِّلْبَشَرِ",
+          "translation": "As a warning to humanity —",
+          "words": [
+            {
+              "arabic": "نَذِيرًا",
+              "translation": "As a warning"
+            },
+            {
+              "arabic": "لِّلْبَشَرِ",
+              "translation": "to humanity"
+            }
+          ]
+        },
+        {
+          "number": 37,
+          "arabic": "لِمَن شَاءَ مِنكُمْ أَن يَتَقَدَّمَ أَوْ يَتَأَخَّرَ",
+          "translation": "For whoever wills among you to proceed or stay behind.",
+          "words": [
+            {
+              "arabic": "لِمَن",
+              "translation": "For whoever"
+            },
+            {
+              "arabic": "شَاءَ",
+              "translation": "wills"
+            },
+            {
+              "arabic": "مِنكُمْ",
+              "translation": "among you"
+            },
+            {
+              "arabic": "أَن",
+              "translation": "to"
+            },
+            {
+              "arabic": "يَتَقَدَّمَ",
+              "translation": "proceed"
+            },
+            {
+              "arabic": "أَوْ",
+              "translation": "or"
+            },
+            {
+              "arabic": "يَتَأَخَّرَ",
+              "translation": "stay behind"
+            }
+          ]
+        },
+        {
+          "number": 38,
+          "arabic": "كُلُّ نَفْسٍ بِمَا كَسَبَتْ رَهِينَةٌ",
+          "translation": "Every soul is held in pledge for what it has earned",
+          "words": [
+            {
+              "arabic": "كُلُّ",
+              "translation": "Every"
+            },
+            {
+              "arabic": "نَفْسٍ",
+              "translation": "soul"
+            },
+            {
+              "arabic": "بِمَا",
+              "translation": "for what"
+            },
+            {
+              "arabic": "كَسَبَتْ",
+              "translation": "it has earned"
+            },
+            {
+              "arabic": "رَهِينَةٌ",
+              "translation": "is held in pledge"
+            }
+          ]
+        },
+        {
+          "number": 39,
+          "arabic": "إِلَّا أَصْحَابَ الْيَمِينِ",
+          "translation": "Except the companions of the right,",
+          "words": [
+            {
+              "arabic": "إِلَّا",
+              "translation": "Except"
+            },
+            {
+              "arabic": "أَصْحَابَ",
+              "translation": "the companions of"
+            },
+            {
+              "arabic": "الْيَمِينِ",
+              "translation": "the right"
+            }
+          ]
+        },
+        {
+          "number": 40,
+          "arabic": "فِي جَنَّاتٍ يَتَسَاءَلُونَ",
+          "translation": "Who will be in gardens, questioning each other",
+          "words": [
+            {
+              "arabic": "فِي",
+              "translation": "In"
+            },
+            {
+              "arabic": "جَنَّاتٍ",
+              "translation": "gardens"
+            },
+            {
+              "arabic": "يَتَسَاءَلُونَ",
+              "translation": "questioning each other"
+            }
+          ]
+        },
+        {
+          "number": 41,
+          "arabic": "عَنِ الْمُجْرِمِينَ",
+          "translation": "About the criminals:",
+          "words": [
+            {
+              "arabic": "عَنِ",
+              "translation": "About"
+            },
+            {
+              "arabic": "الْمُجْرِمِينَ",
+              "translation": "the criminals"
+            }
+          ]
+        },
+        {
+          "number": 42,
+          "arabic": "مَا سَلَكَكُمْ فِي سَقَرَ",
+          "translation": "'What put you into Saqar?'",
+          "words": [
+            {
+              "arabic": "مَا",
+              "translation": "What"
+            },
+            {
+              "arabic": "سَلَكَكُمْ",
+              "translation": "put you into"
+            },
+            {
+              "arabic": "فِي",
+              "translation": "in"
+            },
+            {
+              "arabic": "سَقَرَ",
+              "translation": "Saqar"
+            }
+          ]
+        },
+        {
+          "number": 43,
+          "arabic": "قَالُوا لَمْ نَكُ مِنَ الْمُصَلِّينَ",
+          "translation": "They will say, 'We were not of those who prayed,",
+          "words": [
+            {
+              "arabic": "قَالُوا",
+              "translation": "They will say"
+            },
+            {
+              "arabic": "لَمْ",
+              "translation": "We were not"
+            },
+            {
+              "arabic": "نَكُ",
+              "translation": "of"
+            },
+            {
+              "arabic": "مِنَ",
+              "translation": "those"
+            },
+            {
+              "arabic": "الْمُصَلِّينَ",
+              "translation": "who prayed"
+            }
+          ]
+        },
+        {
+          "number": 44,
+          "arabic": "وَلَمْ نَكُ نُطْعِمُ الْمِسْكِينَ",
+          "translation": "Nor did we used to feed the poor.",
+          "words": [
+            {
+              "arabic": "وَلَمْ",
+              "translation": "Nor did we"
+            },
+            {
+              "arabic": "نَكُ",
+              "translation": "used to"
+            },
+            {
+              "arabic": "نُطْعِمُ",
+              "translation": "feed"
+            },
+            {
+              "arabic": "الْمِسْكِينَ",
+              "translation": "the poor"
+            }
+          ]
+        },
+        {
+          "number": 45,
+          "arabic": "وَكُنَّا نَخُوضُ مَعَ الْخَائِضِينَ",
+          "translation": "And we used to enter into vain discourse with those who engaged [in it],",
+          "words": [
+            {
+              "arabic": "وَكُنَّا",
+              "translation": "And we used to"
+            },
+            {
+              "arabic": "نَخُوضُ",
+              "translation": "enter into"
+            },
+            {
+              "arabic": "مَعَ",
+              "translation": "with"
+            },
+            {
+              "arabic": "الْخَائِضِينَ",
+              "translation": "those who engaged"
+            }
+          ]
+        },
+        {
+          "number": 46,
+          "arabic": "وَكُنَّا نُكَذِّبُ بِيَوْمِ الدِّينِ",
+          "translation": "And we used to deny the Day of Recompense",
+          "words": [
+            {
+              "arabic": "وَكُنَّا",
+              "translation": "And we used to"
+            },
+            {
+              "arabic": "نُكَذِّبُ",
+              "translation": "deny"
+            },
+            {
+              "arabic": "بِيَوْمِ",
+              "translation": "the Day of"
+            },
+            {
+              "arabic": "الدِّينِ",
+              "translation": "Recompense"
+            }
+          ]
+        },
+        {
+          "number": 47,
+          "arabic": "حَتَّىٰ أَتَانَا الْيَقِينُ",
+          "translation": "Until there came to us the certainty [of death].'",
+          "words": [
+            {
+              "arabic": "حَتَّىٰ",
+              "translation": "Until"
+            },
+            {
+              "arabic": "أَتَانَا",
+              "translation": "there came to us"
+            },
+            {
+              "arabic": "الْيَقِينُ",
+              "translation": "the certainty"
+            }
+          ]
+        },
+        {
+          "number": 48,
+          "arabic": "فَمَا تَنفَعُهُمْ شَفَاعَةُ الشَّافِعِينَ",
+          "translation": "So there will not benefit them the intercession of any intercessors.",
+          "words": [
+            {
+              "arabic": "فَمَا",
+              "translation": "So there will not"
+            },
+            {
+              "arabic": "تَنفَعُهُمْ",
+              "translation": "benefit them"
+            },
+            {
+              "arabic": "شَفَاعَةُ",
+              "translation": "the intercession of"
+            },
+            {
+              "arabic": "الشَّافِعِينَ",
+              "translation": "any intercessors"
+            }
+          ]
+        },
+        {
+          "number": 49,
+          "arabic": "فَمَا لَهُمْ عَنِ التَّذْكِرَةِ مُعْرِضِينَ",
+          "translation": "Then what is [the matter] with them that they are turning away from the reminder?",
+          "words": [
+            {
+              "arabic": "فَمَا",
+              "translation": "Then what"
+            },
+            {
+              "arabic": "لَهُمْ",
+              "translation": "is the matter with them"
+            },
+            {
+              "arabic": "عَنِ",
+              "translation": "from"
+            },
+            {
+              "arabic": "التَّذْكِرَةِ",
+              "translation": "the reminder"
+            },
+            {
+              "arabic": "مُعْرِضِينَ",
+              "translation": "turning away"
+            }
+          ]
+        },
+        {
+          "number": 50,
+          "arabic": "كَأَنَّهُمْ حُمُرٌ مُّسْتَنفِرَةٌ",
+          "translation": "As if they were alarmed donkeys",
+          "words": [
+            {
+              "arabic": "كَأَنَّهُمْ",
+              "translation": "As if they were"
+            },
+            {
+              "arabic": "حُمُرٌ",
+              "translation": "donkeys"
+            },
+            {
+              "arabic": "مُّسْتَنفِرَةٌ",
+              "translation": "alarmed"
+            }
+          ]
+        },
+        {
+          "number": 51,
+          "arabic": "فَرَّتْ مِن قَسْوَرَةٍ",
+          "translation": "Fleeing from a lion?",
+          "words": [
+            {
+              "arabic": "فَرَّتْ",
+              "translation": "Fleeing"
+            },
+            {
+              "arabic": "مِن",
+              "translation": "from"
+            },
+            {
+              "arabic": "قَسْوَرَةٍ",
+              "translation": "a lion"
+            }
+          ]
+        },
+        {
+          "number": 52,
+          "arabic": "بَلْ يُرِيدُ كُلُّ امْرِئٍ مِّنْهُمْ أَن يُؤْتَىٰ صُحُفًا مُّنَشَّرَةً",
+          "translation": "Rather, every person among them desires that he would be given scriptures spread about.",
+          "words": [
+            {
+              "arabic": "بَلْ",
+              "translation": "Rather"
+            },
+            {
+              "arabic": "يُرِيدُ",
+              "translation": "desires"
+            },
+            {
+              "arabic": "كُلُّ",
+              "translation": "every"
+            },
+            {
+              "arabic": "امْرِئٍ",
+              "translation": "person"
+            },
+            {
+              "arabic": "مِّنْهُمْ",
+              "translation": "among them"
+            },
+            {
+              "arabic": "أَن",
+              "translation": "that he would be"
+            },
+            {
+              "arabic": "يُؤْتَىٰ",
+              "translation": "given"
+            },
+            {
+              "arabic": "صُحُفًا",
+              "translation": "scriptures"
+            },
+            {
+              "arabic": "مُّنَشَّرَةً",
+              "translation": "spread about"
+            }
+          ]
+        },
+        {
+          "number": 53,
+          "arabic": "كَلَّا ۖ بَل لَّا يَخَافُونَ الْآخِرَةَ",
+          "translation": "No! But they do not fear the Hereafter.",
+          "words": [
+            {
+              "arabic": "كَلَّا",
+              "translation": "No"
+            },
+            {
+              "arabic": "بَل",
+              "translation": "But"
+            },
+            {
+              "arabic": "لَّا",
+              "translation": "not"
+            },
+            {
+              "arabic": "يَخَافُونَ",
+              "translation": "they fear"
+            },
+            {
+              "arabic": "الْآخِرَةَ",
+              "translation": "the Hereafter"
+            }
+          ]
+        },
+        {
+          "number": 54,
+          "arabic": "كَلَّا إِنَّهُ تَذْكِرَةٌ",
+          "translation": "No! Indeed, the Quran is a reminder.",
+          "words": [
+            {
+              "arabic": "كَلَّا",
+              "translation": "No"
+            },
+            {
+              "arabic": "إِنَّهُ",
+              "translation": "Indeed it"
+            },
+            {
+              "arabic": "تَذْكِرَةٌ",
+              "translation": "is a reminder"
+            }
+          ]
+        },
+        {
+          "number": 55,
+          "arabic": "فَمَن شَاءَ ذَكَرَهُ",
+          "translation": "So whoever wills may remember it.",
+          "words": [
+            {
+              "arabic": "فَمَن",
+              "translation": "So whoever"
+            },
+            {
+              "arabic": "شَاءَ",
+              "translation": "wills"
+            },
+            {
+              "arabic": "ذَكَرَهُ",
+              "translation": "may remember it"
+            }
+          ]
+        },
+        {
+          "number": 56,
+          "arabic": "وَمَا يَذْكُرُونَ إِلَّا أَن يَشَاءَ اللَّهُ ۚ هُوَ أَهْلُ التَّقْوَىٰ وَأَهْلُ الْمَغْفِرَةِ",
+          "translation": "And they will not remember except that Allah wills. He is worthy of fear and worthy of forgiveness.",
+          "words": [
+            {
+              "arabic": "وَمَا",
+              "translation": "And they will not"
+            },
+            {
+              "arabic": "يَذْكُرُونَ",
+              "translation": "remember"
+            },
+            {
+              "arabic": "إِلَّا",
+              "translation": "except"
+            },
+            {
+              "arabic": "أَن",
+              "translation": "that"
+            },
+            {
+              "arabic": "يَشَاءَ",
+              "translation": "wills"
+            },
+            {
+              "arabic": "اللَّهُ",
+              "translation": "Allah"
+            },
+            {
+              "arabic": "هُوَ",
+              "translation": "He is"
+            },
+            {
+              "arabic": "أَهْلُ",
+              "translation": "worthy of"
+            },
+            {
+              "arabic": "التَّقْوَىٰ",
+              "translation": "fear"
+            },
+            {
+              "arabic": "وَأَهْلُ",
+              "translation": "and worthy of"
+            },
+            {
+              "arabic": "الْمَغْفِرَةِ",
+              "translation": "forgiveness"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -17,6 +17,11 @@ class UserProgress {
   // Daily challenge
   DateTime? lastDailyChallengeDate;
 
+  // Streak freeze — auto-applied when a day is missed (max 2 stored)
+  int streakFreezes;
+  static const int maxStreakFreezes = 2;
+  static const int streakFreezeCost = 200; // XP cost to buy one
+
   // Global hearts (0-5, refill 1 per 4 hours)
   int hearts;
   DateTime? lastHeartLostAt;
@@ -45,6 +50,7 @@ class UserProgress {
     this.totalPerfectLessons = 0,
     this.totalReviewSessions = 0,
     this.lastDailyChallengeDate,
+    this.streakFreezes = 0,
     this.hearts = maxHearts,
     this.lastHeartLostAt,
     Map<int, SurahProgress>? surahProgress,
@@ -135,6 +141,10 @@ class UserProgress {
       final diff = today.difference(lastDay).inDays;
       if (diff == 1) {
         streak++;
+      } else if (diff == 2 && streakFreezes > 0) {
+        // Exactly one missed day — auto-apply a freeze to keep streak alive
+        streakFreezes--;
+        streak++;
       } else if (diff > 1) {
         streak = 1;
         consecutiveDailyGoals = 0;
@@ -142,6 +152,19 @@ class UserProgress {
     }
     if (streak > longestStreak) longestStreak = streak;
     lastStudyDate = now;
+    // Award a freeze every 7-day streak milestone (max 2)
+    if (streak % 7 == 0 && streakFreezes < maxStreakFreezes) {
+      streakFreezes++;
+    }
+  }
+
+  /// Returns true if purchase succeeded.
+  bool buyStreakFreeze() {
+    if (streakFreezes >= maxStreakFreezes) return false;
+    if (totalXP < streakFreezeCost) return false;
+    totalXP -= streakFreezeCost;
+    streakFreezes++;
+    return true;
   }
 
   void resetDailyXPIfNewDay() {
@@ -184,6 +207,7 @@ class UserProgress {
         'totalPerfectLessons': totalPerfectLessons,
         'totalReviewSessions': totalReviewSessions,
         'lastDailyChallengeDate': lastDailyChallengeDate?.toIso8601String(),
+        'streakFreezes': streakFreezes,
         'hearts': hearts,
         'lastHeartLostAt': lastHeartLostAt?.toIso8601String(),
         'surahProgress': surahProgress.map(
@@ -230,6 +254,7 @@ class UserProgress {
       lastDailyChallengeDate: json['lastDailyChallengeDate'] != null
           ? DateTime.tryParse(json['lastDailyChallengeDate'] as String)
           : null,
+      streakFreezes: json['streakFreezes'] as int? ?? 0,
       hearts: json['hearts'] as int? ?? UserProgress.maxHearts,
       lastHeartLostAt: json['lastHeartLostAt'] != null
           ? DateTime.tryParse(json['lastHeartLostAt'] as String)
