@@ -10,12 +10,16 @@ class LessonCompleteScreen extends StatefulWidget {
   final LessonSession session;
   final bool isReview;
   final bool isDailyChallenge;
+  final String? completedSurahName;
+  final String? completedSurahMeaning;
 
   const LessonCompleteScreen({
     super.key,
     required this.session,
     this.isReview = false,
     this.isDailyChallenge = false,
+    this.completedSurahName,
+    this.completedSurahMeaning,
   });
 
   @override
@@ -33,8 +37,10 @@ class _LessonCompleteScreenState extends State<LessonCompleteScreen>
   @override
   void initState() {
     super.initState();
-    _confetti =
-        ConfettiController(duration: const Duration(seconds: 3));
+    _confetti = ConfettiController(
+        duration: widget.completedSurahName != null
+            ? const Duration(seconds: 6)
+            : const Duration(seconds: 3));
     _scaleController = AnimationController(
       vsync: this,
       duration: const Duration(milliseconds: 600),
@@ -51,6 +57,7 @@ class _LessonCompleteScreenState extends State<LessonCompleteScreen>
           _newAchievements = List.from(provider.pendingAchievements);
         });
         provider.clearPendingAchievements();
+        provider.clearNewlyCompletedSurah();
       }
     });
   }
@@ -95,18 +102,24 @@ class _LessonCompleteScreenState extends State<LessonCompleteScreen>
                     child: Column(
                       children: [
                         Text(
-                          session.isPerfect ? '🌟' : '✅',
+                          widget.completedSurahName != null
+                              ? '📖'
+                              : session.isPerfect
+                                  ? '🌟'
+                                  : '✅',
                           style: const TextStyle(fontSize: 80),
                         ),
                         const SizedBox(height: 16),
                         Text(
-                          session.isPerfect
-                              ? 'Perfect!'
-                              : widget.isDailyChallenge
-                                  ? 'Challenge Complete!'
-                                  : widget.isReview
-                                      ? 'Review Complete!'
-                                      : 'Lesson Complete!',
+                          widget.completedSurahName != null
+                              ? 'Surah Complete!'
+                              : session.isPerfect
+                                  ? 'Perfect!'
+                                  : widget.isDailyChallenge
+                                      ? 'Challenge Complete!'
+                                      : widget.isReview
+                                          ? 'Review Complete!'
+                                          : 'Lesson Complete!',
                           style: const TextStyle(
                             fontSize: 30,
                             fontWeight: FontWeight.w900,
@@ -115,9 +128,11 @@ class _LessonCompleteScreenState extends State<LessonCompleteScreen>
                         ),
                         const SizedBox(height: 6),
                         Text(
-                          session.isPerfect
-                              ? 'Flawless — no mistakes!'
-                              : 'Keep it up, you\'re building mastery.',
+                          widget.completedSurahName != null
+                              ? 'You completed Surah ${widget.completedSurahName}!'
+                              : session.isPerfect
+                                  ? 'Flawless — no mistakes!'
+                                  : 'Keep it up, you\'re building mastery.',
                           textAlign: TextAlign.center,
                           style: const TextStyle(
                             fontSize: 15,
@@ -127,6 +142,13 @@ class _LessonCompleteScreenState extends State<LessonCompleteScreen>
                       ],
                     ),
                   ),
+                  if (widget.completedSurahName != null) ...[
+                    const SizedBox(height: 20),
+                    _SurahCompleteBanner(
+                      surahName: widget.completedSurahName!,
+                      surahMeaning: widget.completedSurahMeaning,
+                    ),
+                  ],
                   const SizedBox(height: 36),
                   Row(
                     children: [
@@ -212,6 +234,85 @@ class _StatCard extends StatelessWidget {
                     fontWeight: FontWeight.w600)),
           ],
         ),
+      ),
+    );
+  }
+}
+
+class _SurahCompleteBanner extends StatelessWidget {
+  final String surahName;
+  final String? surahMeaning;
+
+  const _SurahCompleteBanner(
+      {required this.surahName, this.surahMeaning});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(20),
+      decoration: BoxDecoration(
+        gradient: const LinearGradient(
+          colors: [Color(0xFF1A237E), Color(0xFF283593)],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
+        borderRadius: BorderRadius.circular(20),
+        boxShadow: [
+          BoxShadow(
+            color: const Color(0xFF1A237E).withOpacity(0.3),
+            blurRadius: 12,
+            offset: const Offset(0, 4),
+          ),
+        ],
+      ),
+      child: Row(
+        children: [
+          Container(
+            width: 56,
+            height: 56,
+            decoration: BoxDecoration(
+              color: Colors.white.withOpacity(0.15),
+              shape: BoxShape.circle,
+            ),
+            child: const Center(
+              child: Text('📖', style: TextStyle(fontSize: 28)),
+            ),
+          ),
+          const SizedBox(width: 16),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const Text(
+                  'SURAH COMPLETE',
+                  style: TextStyle(
+                    fontSize: 10,
+                    fontWeight: FontWeight.w800,
+                    color: Color(0xFF90CAF9),
+                    letterSpacing: 1.2,
+                  ),
+                ),
+                Text(
+                  surahName,
+                  style: const TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.w900,
+                    color: Colors.white,
+                  ),
+                ),
+                if (surahMeaning != null)
+                  Text(
+                    '"$surahMeaning"',
+                    style: TextStyle(
+                      fontSize: 13,
+                      color: Colors.white.withOpacity(0.75),
+                      fontStyle: FontStyle.italic,
+                    ),
+                  ),
+              ],
+            ),
+          ),
+        ],
       ),
     );
   }

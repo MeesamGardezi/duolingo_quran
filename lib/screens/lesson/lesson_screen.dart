@@ -87,6 +87,10 @@ class _LessonScreenState extends State<LessonScreen> {
     }
 
     if (!mounted) return;
+    final completedSurah = provider.newlyCompletedSurahNumber;
+    final surahInfo = completedSurah != null
+        ? QuranRepository.instance.getSurahInfo(completedSurah)
+        : null;
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(
@@ -94,6 +98,8 @@ class _LessonScreenState extends State<LessonScreen> {
           session: _session!,
           isReview: widget.isReview || widget.isDailyChallenge,
           isDailyChallenge: widget.isDailyChallenge,
+          completedSurahName: surahInfo?['name'] as String?,
+          completedSurahMeaning: surahInfo?['meaning'] as String?,
         ),
       ),
     );

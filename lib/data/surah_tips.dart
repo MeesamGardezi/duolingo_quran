@@ -1,6 +1,9 @@
 class SurahTips {
   static const Map<int, String> _tips = {
     1: 'Al-Fatiha is recited in every unit of prayer (raka\'ah). A Muslim recites it at least 17 times daily.',
+    81: 'At-Takwir depicts the Day of Judgment as a cosmic "rolling up" — the sun dimmed, stars scattered, mountains moved.',
+    82: 'Al-Infitar asks a powerful question: "What has deceived you concerning your Lord, the Generous?" — reminding us of Allah\'s boundless gifts.',
+    85: 'Al-Buruj tells the story of the People of the Trench — believers thrown into fire for their faith, yet Allah promises them Paradise.',
     86: 'At-Tariq (The Morning Star) draws attention to the piercing brightness of a star to illustrate how every soul has a guardian angel.',
     87: 'Al-A\'la was one of the first surahs revealed. The Prophet (ﷺ) often recited it in Friday prayers.',
     88: 'Al-Ghashiyah (The Overwhelming) describes the Day of Judgment — some faces humbled, others radiant with joy.',

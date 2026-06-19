@@ -13,11 +13,13 @@ class AppProvider extends ChangeNotifier {
   UserProgress _progress = UserProgress();
   bool _initialized = false;
   List<Achievement> _pendingAchievements = [];
+  int? _newlyCompletedSurahNumber;
   final ExerciseGenerator _generator = ExerciseGenerator();
 
   UserProgress get progress => _progress;
   bool get initialized => _initialized;
   List<Achievement> get pendingAchievements => _pendingAchievements;
+  int? get newlyCompletedSurahNumber => _newlyCompletedSurahNumber;
 
   Future<void> initialize() async {
     await QuranRepository.instance.initialize();
@@ -28,6 +30,10 @@ class AppProvider extends ChangeNotifier {
 
   void clearPendingAchievements() {
     _pendingAchievements = [];
+  }
+
+  void clearNewlyCompletedSurah() {
+    _newlyCompletedSurahNumber = null;
   }
 
   // ── Lesson ─────────────────────────────────────────────────────────────────
@@ -104,6 +110,18 @@ class AppProvider extends ChangeNotifier {
     );
 
     _pendingAchievements = AchievementService.checkAfterLesson(_progress);
+
+    // Detect surah completion
+    final surahInfo = QuranRepository.instance.getSurahInfo(session.surahNumber);
+    final totalVerses = surahInfo?['totalVerses'] as int?;
+    final sp = _progress.surahProgress[session.surahNumber];
+    if (totalVerses != null && sp != null &&
+        sp.completedLessons.length >= totalVerses) {
+      _newlyCompletedSurahNumber = session.surahNumber;
+    } else {
+      _newlyCompletedSurahNumber = null;
+    }
+
     await ProgressService.instance.save(_progress);
     notifyListeners();
   }
